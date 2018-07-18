@@ -79,6 +79,21 @@ header {
   width: 95%;
   max-width: ;
 }
+.mainContent{
+  background: #FFF;
+  border: 1px solid white;
+  height: 220em;
+  max-height: ;
+  margin: 10em auto;
+  width: 95%;
+  max-width: ;
+}
+h2{
+  color: #000;
+}
+p{
+  color: #000;
+}
 footer {
 
 }
