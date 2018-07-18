@@ -82,7 +82,7 @@ header {
 .mainContent{
   background: #FFF;
   border: 1px solid white;
-  height: 220em;
+  height: 240em;
   max-height: ;
   margin: 10em auto;
   width: 95%;
@@ -93,6 +93,13 @@ h2{
 }
 p{
   color: #000;
+}
+.faqContact{
+  background: #000;
+  border: 1px solid black;
+  height: 40em;
+  margin: 10em 0 0 -0.1em;
+  width: 100%;
 }
 footer {
 
