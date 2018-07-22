@@ -89,7 +89,7 @@ header {
   max-width: ;
 }
 h2{
-  color: #000;
+  color: #FFF;
 }
 p{
   color: #000;
@@ -97,10 +97,27 @@ p{
 .faqContact{
   background: #000;
   border: 1px solid black;
-  height: 40em;
+  height: 50em;
   margin: 10em 0 0 -0.1em;
   width: 100%;
 }
+.headers{
+  border: 1px solid transparent;
+  font-size: 4.5em;
+  font-weight: 800;
+  margin: 5px 0 -30px 0;
+  height: 2em;
+  width: 100%
+}
+.contactHeader{
+  margin: 0 0 0 40%;
+}
+.faq{
+  border: 1px solid white;
+  height: 35em;
+  width: 50%
+}
+
 footer {
 
 }
