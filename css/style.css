@@ -88,6 +88,24 @@ header {
   width: 95%;
   max-width: ;
 }
+.interactiveMap{
+  width: 100%;
+}
+img + h2 {
+  color: #000;
+  font-size: 4.5em;
+  width: 45%;
+}
+.moreButton{
+  background-color: #FFF;
+  border: .3em solid #8f8f8f;
+  font-size: 1.8em;
+  font-weight: 800;
+  height: 2.8em;
+  margin: 0 0 0 44%;
+  width: 10%;
+}
+
 h2{
   color: #FFF;
 }
@@ -107,17 +125,43 @@ p{
   font-weight: 800;
   margin: 5px 0 -30px 0;
   height: 2em;
-  width: 100%
+  width: 100%s
 }
 .contactHeader{
   margin: 0 0 0 40%;
 }
 .faq{
   border: 1px solid white;
-  height: 35em;
-  width: 50%
+  float: left;
+  font-size: 1.5em;
+  height: 30em;
+  width: 48%
 }
-
+ul > li{
+  margin: 1em 0 0 0;
+}
+.contact{
+  border: 1px solid white;
+  float: left;
+  height: 35em;
+  width: 48%
+}
+#fname{
+  height: 2.5em;
+  width: 30%;
+}
+#lname{
+  height: 2.5em;
+  margin: 0 0 0 5%;
+  width: 30%;
+}
+#subject{
+  margin: 13px 0 0 0%;
+  width: 66.5%;
+}
+#submit{
+  margin: 0 0 0 50%;
+}
 footer {
 
 }
