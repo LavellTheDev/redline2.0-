@@ -44,11 +44,11 @@ Date (completed):
 }
 
 /*******************************************/
-/* BASE STYLES
+/* 262626
 /*******************************************/
 
 body {
-     background-color: #000;
+     background-color: #262626;
      color: #FFF;
      font-size: 12px;
      font-family: Helvetica, Arial, sans-serif;
@@ -79,14 +79,32 @@ header {
   width: 95%;
   max-width: ;
 }
+/* Everything that falls under the main content section
+includes up until hit us up on instagram */
 .mainContent{
   background: #FFF;
   border: 1px solid white;
-  height: 260em;
+  height: 225em;
   max-height: ;
   margin: 10em auto;
   width: 95%;
   max-width: ;
+}
+.mainContent > h2{
+  color: #000;
+  font-size: 2em;
+}
+.topBasement{
+  border: 0.555em solid #262626;
+}
+img + p {
+  width: 48%;
+  float: left;
+}
+button + h2{
+  color: #000;
+  font-size: 4.5em;
+  width: 40%;
 }
 .interactiveMap{
   width: 100%;
