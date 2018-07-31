@@ -131,9 +131,9 @@ p{
   color: #000;
 }
 .faqContact{
-  background: #000;
+  background: #262626;
   border: 1px solid black;
-  height: 50em;
+  height: 55em;
   margin: 10em 0 0 -0.1em;
   width: 100%;
 }
@@ -154,6 +154,10 @@ p{
   font-size: 1.5em;
   height: 30em;
   width: 48%
+}
+.socialMedia{
+  font-size: 3.2em;
+  margin: 2.2em 0 0 0;
 }
 ul > li{
   margin: 1em 0 0 0;
@@ -179,6 +183,24 @@ ul > li{
 }
 #submit{
   margin: 0 0 0 50%;
+}
+h4{
+  color: #000;
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+.topEho{
+  margin: 4em 0 0.5em 0;
+}
+.bottomEho{
+  margin: 0 0 0 0;
+}
+h4 + img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
 }
 footer {
 
