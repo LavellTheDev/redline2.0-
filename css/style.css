@@ -84,28 +84,78 @@ includes up until hit us up on instagram */
 .mainContent{
   background: #FFF;
   border: 1px solid white;
-  height: 225em;
+  height: 252em;/*Might make this 220*/
   max-height: ;
   margin: 10em auto;
   width: 95%;
   max-width: ;
 }
-.mainContent > h2{
-  color: #000;
-  font-size: 2em;
+/*****************************************
+******************************************
+Start of Targets the about section of the website
+this includes topfloor and basement scene
+also the blog button*********************
+******************************************
+*******************************************/
+.topFloor{
+  border: 0.555em solid #262626;
 }
+
+/*************targeting basementscene*/
 .topBasement{
   border: 0.555em solid #262626;
 }
-img + p {
-  width: 48%;
-  float: left;
+.topBasementTypeface{/*Targets basement scene typeface only*/
+  color: #000;
+  font-size: 2em;
+  margin: 4em 0 2.5em 60%;
 }
+img + p {
+  float: left;
+  width: 48%;
+}
+.blogButton{
+  background-color: #262626;
+  border: none;
+  clear: both;
+  color: #FFF;
+  float: left;
+  font-size: 1.4em;
+  font-weight: 600;
+  height: 4.6em;
+  margin: -10em 0 0 17%;
+  width: 15%;
+}
+/*****************************************
+******************************************
+END of Targets the about section of the website
+this includes topfloor and basement scene
+also the blog button*********************
+******************************************
+*******************************************/
+
+
+/*****************************************
+******************************************
+Start of targeting h2 "All about Location"
+******************************************
+*******************************************/
+.mainContent > h2{
+  color: #000;
+  font-size: 4.5em;
+}
+
 button + h2{
   color: #000;
   font-size: 4.5em;
-  width: 40%;
+  margin: 0 0 0 70%;
+  width: 25%;
 }
+/*****************************************
+******************************************
+end of targeting h2 "All about Location"
+******************************************
+*******************************************/
 .interactiveMap{
   width: 100%;
 }
@@ -146,26 +196,32 @@ p{
   width: 100%s
 }
 .contactHeader{
-  margin: 0 0 0 40%;
+  margin: 0 0 0 35%;
 }
 .faq{
-  border: 1px solid white;
+  border: 1px solid transparent;
   float: left;
   font-size: 1.5em;
   height: 30em;
   width: 48%
 }
 .socialMedia{
+  color: #fff;
   font-size: 3.2em;
-  margin: 2.2em 0 0 0;
+  margin: 2.2em 0 0 -51%;
+}
+a > img{/*the social media links and images*/
+margin: 0.5em 0 0 2.5%;
+width: 12%;
 }
 ul > li{
   margin: 1em 0 0 0;
 }
 .contact{
-  border: 1px solid white;
+  border: 1px solid transparent;
   float: left;
   height: 35em;
+  margin: 0 0 0 2.5%;
   width: 48%
 }
 #fname{
@@ -182,7 +238,12 @@ ul > li{
   width: 66.5%;
 }
 #submit{
-  margin: 0 0 0 50%;
+  background: none;
+  border: none;
+  color: #FFF;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 1.3em 0 0 50%;
 }
 h4{
   color: #000;
@@ -191,10 +252,12 @@ h4{
   text-align: center;
 }
 .topEho{
+  font-weight: 400;
   margin: 4em 0 0.5em 0;
 }
 .bottomEho{
-  margin: 0 0 0 0;
+  font-weight: 400;
+  margin: 0.5em 0 0 0;
 }
 h4 + img{
   display: block;
