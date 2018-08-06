@@ -79,6 +79,14 @@ header {
   width: 95%;
   max-width: ;
 }
+.mainBlogButton{
+  border: none;
+  font-size: 1.6em;
+  font-weight: 700;
+  height: 2.8em;
+  margin: 2em 0 -1em 58%;
+  width: 35%;
+}
 /* Everything that falls under the main content section
 includes up until hit us up on instagram */
 .mainContent{
@@ -99,20 +107,46 @@ also the blog button*********************
 *******************************************/
 .topFloor{
   border: 0.555em solid #262626;
+  float: left;
+  margin: -4em 0 0 5%;
 }
-
+.titleBorderTop{
+  border: .5em solid grey;
+  height: 9em;
+  margin: 8em 0 0 2%;
+  width: 20%;
+}
+.topFloorTypeface{
+  color: #000;
+  font-size: 2.5em;
+  margin: 0.5em 0 0 20%;
+  width: 100%;
+}
+.topFloor + p{
+  float: right;
+  margin: 0.5em 5% 0 0;
+}
 /*************targeting basementscene*/
 .topBasement{
   border: 0.555em solid #262626;
+  margin: -3em 0 0 0;
+}
+.titleBorderBottom{
+  border: .5em solid grey;
+  height: 9em;
+  margin: 30em 0 0 75%;
+  width: 20%;
 }
 .topBasementTypeface{/*Targets basement scene typeface only*/
   color: #000;
-  font-size: 2em;
-  margin: 4em 0 2.5em 60%;
+  font-size: 2.5em;
+  margin: 0.5em 0 2.5em -28%;
 }
 img + p {
   float: left;
-  width: 48%;
+  font-size: 1.4em;
+  margin: 0 2% 0 5%;
+  width: 44%;
 }
 .blogButton{
   background-color: #262626;
@@ -123,7 +157,7 @@ img + p {
   font-size: 1.4em;
   font-weight: 600;
   height: 4.6em;
-  margin: -10em 0 0 17%;
+  margin: -5em 0 0 17%;
   width: 15%;
 }
 /*****************************************
@@ -148,7 +182,7 @@ Start of targeting h2 "All about Location"
 button + h2{
   color: #000;
   font-size: 4.5em;
-  margin: 0 0 0 70%;
+  margin: 1em 0 0 70%;
   width: 25%;
 }
 /*****************************************
