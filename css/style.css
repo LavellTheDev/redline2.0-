@@ -70,6 +70,30 @@ body {
 header {
 
 }
+li > h2{
+  margin: 0 0 -1.1em 0%;
+}
+.homeMove{
+  /*used to move the nav bar*/
+  margin: 0 0 0 39%;
+}
+ul > li{
+  display: inline;
+  font-size: 1.5em;
+  list-style-type: none;
+  margin: 0 0 0 3%;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+a{
+  color: #FFF;
+  text-decoration: none;
+}
+ul + hr{
+  margin: -0.9em 0 6em 3%;
+  width: 20%;
+}
 .banner{
   background: #FFF;
   border: 1px solid white;
@@ -239,6 +263,9 @@ p{
   height: 30em;
   width: 48%
 }
+ol > li{
+  margin: 2em 0 0 0;
+}
 .socialMedia{
   color: #fff;
   font-size: 3.2em;
@@ -248,9 +275,7 @@ a > img{/*the social media links and images*/
 margin: 0.5em 0 0 2.5%;
 width: 12%;
 }
-ul > li{
-  margin: 1em 0 0 0;
-}
+
 .contact{
   border: 1px solid transparent;
   float: left;
