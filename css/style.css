@@ -71,17 +71,18 @@ header {
 
 }
 li > h2{
-  margin: 0 0 -1.1em 0%;
+  letter-spacing: .25em;
+  margin: 0 0 -1em 0%;
 }
 .homeMove{
   /*used to move the nav bar*/
-  margin: 0 0 0 39%;
+  margin: 0 0 0 50%;
 }
 ul > li{
   display: inline;
   font-size: 1.5em;
   list-style-type: none;
-  margin: 0 0 0 3%;
+  margin: 0 0 0 2%;
   overflow: hidden;
   padding: 0;
   width: 100%;
@@ -91,8 +92,8 @@ a{
   text-decoration: none;
 }
 ul + hr{
-  margin: -0.9em 0 6em 3%;
-  width: 20%;
+  margin: -0.9em 0 12em 3%;
+  width: 30%;
 }
 .banner{
   background: #FFF;
@@ -116,7 +117,7 @@ includes up until hit us up on instagram */
 .mainContent{
   background: #FFF;
   border: 1px solid white;
-  height: 252em;/*Might make this 220*/
+  height: 260em;/*Might make this 220*/
   max-height: ;
   margin: 10em auto;
   width: 95%;
@@ -269,7 +270,7 @@ ol > li{
 .socialMedia{
   color: #fff;
   font-size: 3.2em;
-  margin: 2.2em 0 0 -51%;
+  margin: 1.2em 0 0 -51%;
 }
 a > img{/*the social media links and images*/
 margin: 0.5em 0 0 2.5%;
@@ -312,7 +313,7 @@ h4{
 }
 .topEho{
   font-weight: 400;
-  margin: 4em 0 0.5em 0;
+  margin: 2.5em 0 0.5em 0;
 }
 .bottomEho{
   font-weight: 400;
