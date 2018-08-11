@@ -91,6 +91,9 @@ a{
   color: #FFF;
   text-decoration: none;
 }
+li a:hover{
+  text-decoration: underline;
+}
 ul + hr{
   margin: -0.9em 0 12em 3%;
   width: 30%;
