@@ -71,7 +71,7 @@ header {
 
 }
 li > h2{
-  letter-spacing: .25em;
+  letter-spacing: 3px;
   margin: 0 0 -1em 0%;
 }
 .homeMove{
