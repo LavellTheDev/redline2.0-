@@ -70,6 +70,13 @@ body {
 header {
 
 }
+/*start of targeting the nav*/
+#mainNav{
+
+}
+nav{
+  
+}
 li > h2{
   letter-spacing: 3px;
   margin: 0 0 -1em 0%;
@@ -94,8 +101,9 @@ a{
 li a:hover{
   text-decoration: underline;
 }
+/*End of targeting the Nav*/
 ul + hr{
-  margin: -0.9em 0 12em 3%;
+  margin: -0.9em 0 5em 3%;
   width: 30%;
 }
 .banner{
