@@ -75,8 +75,14 @@ header {
 
 }
 nav{
-  
+
 }
+
+/* .fixed-nav nav{
+  position: fixed;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+} */
+
 li > h2{
   letter-spacing: 3px;
   margin: 0 0 -1em 0%;
@@ -227,6 +233,7 @@ end of targeting h2 "All about Location"
 ******************************************
 *******************************************/
 .interactiveMap{
+  height: 550px;
   width: 100%;
 }
 img + h2 {
