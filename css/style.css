@@ -52,7 +52,7 @@ body {
      color: #FFF;
      font-size: 12px;
      font-family: Helvetica, Arial, sans-serif;
-     height: 250em;
+     height: 320em;
      line-height: 1.4;
 }
 
@@ -134,7 +134,7 @@ includes up until hit us up on instagram */
 .mainContent{
   background: #FFF;
   border: 1px solid white;
-  height: 260em;/*Might make this 220*/
+  height: 320em;/*Might make this 220*/
   max-height: ;
   margin: 10em auto;
   width: 95%;
@@ -260,7 +260,7 @@ p{
 .faqContact{
   background: #262626;
   border: 1px solid black;
-  height: 55em;
+  height: 120em;
   margin: 10em 0 0 -0.1em;
   width: 100%;
 }
