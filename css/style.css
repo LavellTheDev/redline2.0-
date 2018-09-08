@@ -75,7 +75,6 @@ header {
 
 }
 nav{
-
 }
 
 /* .fixed-nav nav{
@@ -283,8 +282,27 @@ p{
   width: 48%
 }
 ol > li{
-  margin: 2em 0 0 0;
+  display: block;
+  margin: 24px 0 0 0;
+  padding: 5px;
 }
+/***********************************/
+/***********STarts the *************/
+/***********Faq Page ***************/
+/***********Jquery Code*************/
+li.q{
+  font-size: 1em;
+}
+li.a{
+  font-size: 1.1em;
+  font-weight: 300;
+  margin: 0 0 0 0;
+}
+
+/***********************************/
+/***********Ends the *************/
+/***********Faq Page ***************/
+/***********Jquery Code*************/
 .socialMedia{
   color: #fff;
   font-size: 3.2em;
