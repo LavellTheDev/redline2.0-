@@ -291,6 +291,7 @@ ol > li{
 /***********Faq Page ***************/
 /***********Jquery Code*************/
 li.q{
+  cursor: default;
   font-size: 1em;
 }
 li.a{
@@ -298,6 +299,13 @@ li.a{
   font-weight: 300;
   margin: 0 0 0 0;
 }
+li.q::before{
+content: attr(data-icon);
+margin-right: 10px;
+}
+/* li.q:hover{
+  text-decoration: underline;
+} */
 
 /***********************************/
 /***********Ends the *************/
