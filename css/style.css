@@ -235,6 +235,13 @@ end of targeting h2 "All about Location"
   height: 550px;
   width: 100%;
 }
+.mapCards{
+  width: 30%;
+  position: absolute;
+  left:2.1%; 
+  top:2100px;
+  z-index: 100;
+}
 img + h2 {
   color: #000;
   font-size: 4.5em;
