@@ -238,9 +238,12 @@ end of targeting h2 "All about Location"
 .mapCards{
   width: 30%;
   position: absolute;
-  left:2.1%; 
+  left:2.1%;
   top:2100px;
   z-index: 100;
+}
+.hidden{
+  display: none;
 }
 img + h2 {
   color: #000;

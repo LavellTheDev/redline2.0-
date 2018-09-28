@@ -107,3 +107,15 @@ $(document).ready(function() {
 });
 
 //End of FAQ CODE
+
+//Start of MAP
+function toggleMap(){
+  $('.backbay-toggle').click(function(){
+      $('.hidden1').toggle();
+  });
+}
+
+$(document).ready(function(){
+  toggleMap();
+});
+//End of map
