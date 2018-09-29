@@ -109,13 +109,82 @@ $(document).ready(function() {
 //End of FAQ CODE
 
 //Start of MAP
-function toggleMap(){
-  $('.backbay-toggle').click(function(){
-      $('.hidden1').toggle();
-  });
-}
+// function toggleMap(){
+// $('.backbay-toggle').click(function(){
+ //     $('.backbayCard').on("click", function(){})
+// });
+// }
+
+// $(document).ready(function(){
+//   toggleMap();
+// });
 
 $(document).ready(function(){
-  toggleMap();
+
+  $('.backbay-toggle').on('click', function(){
+      $('.backbayCard').fadeToggle(1000);
+  })
+
+
+  $('.beaconhill-toggle').on('click', function(){
+      $('.beaconhillCard').toggle(1000);
+  })
+
+  $('.cambridge-toggle').on('click', function(){
+      $('.cambridgeCard').fadeToggle(1000);
+  })
+
+  $('.charlestown-toggle').on('click', function(){
+      $('.charlestownCard').fadeToggle(1000);
+  })
+
+  $('.dorchester-toggle').on('click', function(){
+      $('.dorchesterCard').fadeToggle(1000);
+  })
+
+  $('.downtown-toggle').on('click', function(){
+      $('.downtownCard').fadeToggle(1000);
+  })
+
+  $('.eastboston-toggle').on('click', function(){
+      $('.eastbostonCard').fadeToggle(1000);
+  })
+
+  $('.fenway-toggle').on('click', function(){
+      $('.fenwayCard').fadeToggle(1000);
+  })
+
+  $('.jamaicaplain-toggle').on('click', function(){
+      $('.jamaicaplainCard').fadeToggle(1000);
+  })
+
+  $('.leatherdistrict-toggle').on('click', function(){
+      $('.leatherdistrictCard').fadeToggle(1000);
+  })
+
+  $('.northend-toggle').on('click', function(){
+      $('.northendCard').fadeToggle(1000);
+  })
+
+  $('.roxbury-toggle').on('click', function(){
+      $('.roxburyCard').fadeToggle(1000);
+  })
+
+  $('.seaport-toggle').on('click', function(){
+      $('.seaportCard').fadeToggle(1000);
+  })
+
+  $('.southend-toggle').on('click', function(){
+      $('.southEndCard').fadeToggle(1000);
+  })
+
+  $('.westend-toggle').on('click', function(){
+      $('.westEndCard').fadeToggle(1000);
+  })
+});
+$(document).ready(function(){
+  $('.mapX-toggle').on('click', function(){
+      $('.hidden').hide();
+  });
 });
 //End of map

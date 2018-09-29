@@ -132,7 +132,7 @@ ul + hr{
 includes up until hit us up on instagram */
 .mainContent{
   background: #FFF;
-  border: 1px solid white;
+  border: 1px solid transparent;
   height: 320em;/*Might make this 220*/
   max-height: ;
   margin: 10em auto;
@@ -218,6 +218,8 @@ Start of targeting h2 "All about Location"
 .mainContent > h2{
   color: #000;
   font-size: 4.5em;
+  position: relative;
+  top: 56px;
 }
 
 button + h2{

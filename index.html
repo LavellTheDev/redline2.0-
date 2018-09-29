@@ -61,42 +61,44 @@
 			<button class="blogButton" type="button" name="button">check out our blog</button>
 			<h2 >it's all about <span id="map">location</span></h2>
 			<!--This starts the entirity of the map code-->
-			<button type="button" name="button"></button>
 			<map name="redlineMap">
-				<area shape="rect" coords="547, 326, 670, 362 " href="#?" alt="back bay" class="backbay-toggle">
-				<area shape="rect" coords="575,269,717,295" href="https://google.com" alt="beaconhill">
-				<area shape="rect" coords="208, 160, 343, 178" href="https://google.com" alt="cambridge">
-				<area shape="rect" coords="617, 36, 770, 54" href="https://google.com" alt="charlestown">
-				<area shape="rect" coords="841, 526, 976, 548" href="#" alt="dorchester">
-				<area shape="rect" coords="747, 277, 877, 300" href="https://google.com" alt="downtown">
-				<area shape="rect" coords="1036, 103, 1182, 125" href="https://google.com" alt="east boston">
-				<area shape="rect" coords="397, 422, 483, 454" href="https://google.com" alt="fenway">
-				<area shape="rect" coords="230, 506, 405, 530" href="https://google.com" alt="jamaica plain">
-				<area shape="rect" coords="726,323,903,348" href="https://google.com" alt="leather district">
-				<area shape="rect" coords="750,179,875,198" href="https://google.com" alt="north end">
-				<area shape="rect" coords="554,493,651,519" href="https://google.com" alt="roxbury">
-				<area shape="rect" coords="915,401,1012,417" href="https://google.com" alt="seaport">
-				<area shape="rect" coords="854,460,1016,482" href="https://google.com" alt="south boston">
-				<area shape="rect" coords="606,414,731,434" href="https://google.com" alt="south end">
-				<area shape="rect" coords="602,201,715,217" href="https://google.com" alt="west end">
+				<area shape="rect" coords="547, 326, 670, 362 " href="#?" class="backbay-toggle" alt="back bay">
+				<area shape="rect" coords="575,269,717,295" href="#?" class="beaconhill-toggle" alt="beaconhill">
+				<area shape="rect" coords="208, 160, 343, 178" href="#?" class="cambridge-toggle" alt="cambridge">
+				<area shape="rect" coords="617, 36, 770, 54" href="#?" class="charlestown-toggle" alt="charlestown">
+				<area shape="rect" coords="841, 526, 976, 548" href="#?" class="dorchester-toggle" alt="dorchester">
+				<area shape="rect" coords="747, 277, 877, 300" href="#?" class="downtown-toggle" alt="downtown">
+				<area shape="rect" coords="1036, 103, 1182, 125" href="#?" class="eastboston-toggle" alt="east boston">
+				<area shape="rect" coords="397, 422, 483, 454" href="#?" class="fenway-toggle" alt="fenway">
+				<area shape="rect" coords="230, 506, 405, 530" href="#?" class="jamaicaplain-toggle" alt="jamaica plain">
+				<area shape="rect" coords="726,323,903,348" href="#?" class="leatherdistrict-toggle" alt="leather district">
+				<area shape="rect" coords="750,179,875,198" href="#?" class="northend-toggle" alt="north end">
+				<area shape="rect" coords="554,493,651,519" href="#?" class="roxbury-toggle" alt="roxbury">
+				<area shape="rect" coords="915,401,1012,417" href="#?" class="seaport-toggle" alt="seaport">
+				<area shape="rect" coords="854,460,1016,482" href="#?" class="southboston-toggle" alt="south boston">
+				<area shape="rect" coords="606,414,731,434" href="#?" class="southend-toggle" alt="south end">
+				<area shape="rect" coords="602,201,715,217" href="#?" class="westend-toggle" alt="west end">
+			</map>
+			<map name="mapCardX">
+				<area shape="rect" coords="354, 16, 370, 33" href="#?" class="mapX-toggle" alt="">
 			</map>
 			<img class="interactiveMap" src="images/finished-map.jpg" alt="" usemap="#redlineMap">
-			<img class="mapCards hidden backbayCard" src="cards/backbayCard.png" alt="back bay">
-			<img class="mapCards hidden" src="cards/beaconhillCard.png" alt="beacon hill">
-			<img class="mapCards hidden" src="cards/cambridgeCard.png" alt="cambridge">
-			<img class="mapCards hidden" src="cards/charlestownCard.png" alt="charlestown">
-			<img class="mapCards hidden" src="cards/downtownCard.png" alt="downtown">
-			<img class="mapCards hidden" src="cards/dorchesterCard.png" alt="dorchester">
-			<img class="mapCards hidden" src="cards/eastbostonCard.png" alt="east boston">
-			<img class="mapCards hidden" src="cards/fenwayCard.png" alt="fenway">
-			<img class="mapCards hidden" src="cards/jamaicaplainCard.png" alt="jamaica plain">
-			<img class="mapCards hidden" src="cards/leatherdistrictCard.png" alt="leather district">
-			<img class="mapCards hidden" src="cards/northendCard.png" alt="north end">
-			<img class="mapCards hidden" src="cards/roxburyCard.png" alt="roxbury">
-			<img class="mapCards hidden" src="cards/seaportCard.png" alt="seaport">
-			<img class="mapCards hidden" src="cards/southBostonCard.png" alt="south boston">
-			<img class="mapCards hidden" src="cards/southEndCard.png" alt="south end">
-			<img class="mapCards hidden" src="cards/westEndCard.png" alt="west end">
+			<img class="mapCards hidden backbayCard" src="cards/backbayCard.png" alt="back bay" usemap="#mapCardX">
+			<img class="mapCards hidden beaconhillCard" src="cards/beaconhillCard.png" alt="beacon hill" usemap="#mapCardX">
+			<img class="mapCards hidden cambridgeCard" src="cards/cambridgeCard.png" alt="cambridge" usemap="#mapCardX">
+			<img class="mapCards hidden charlestownCard" src="cards/charlestownCard.png" alt="charlestown" usemap="#mapCardX">
+			<img class="mapCards hidden downtownCard" src="cards/downtownCard.png" alt="downtown" usemap="#mapCardX">
+			<img class="mapCards hidden dorchesterCard" src="cards/dorchesterCard.png" alt="dorchester" usemap="#mapCardX">
+			<img class="mapCards hidden eastbostonCard" src="cards/eastbostonCard.png" alt="east boston" usemap="#mapCardX">
+			<img class="mapCards hidden fenwayCard" src="cards/fenwayCard.png" alt="fenway" usemap="#mapCardX">
+			<img class="mapCards hidden jamaicaplainCard" src="cards/jamaicaplainCard.png" alt="jamaica plain"usemap="#mapCardX">
+			<img class="mapCards hidden leatherdistrictCard" src="cards/leatherdistrictCard.png" alt="leather district" usemap="#mapCardX">
+			<img class="mapCards hidden northendCard" src="cards/northendCard.png" alt="north end" usemap="#mapCardX">
+			<img class="mapCards hidden roxburyCard" src="cards/roxburyCard.png" alt="roxbury" usemap="#mapCardX">
+			<img class="mapCards hidden seaportCard" src="cards/seaportCard.png" alt="seaport" usemap="#mapCardX">
+			<img class="mapCards hidden southBostonCard" src="cards/southBostonCard.png" alt="south boston" usemap="#mapCardX">
+			<img class="mapCards hidden southEndCard" src="cards/southEndCard.png" alt="south end" usemap="#mapCardX">
+			<img class="mapCards hidden westEndCard" src="cards/westEndCard.png" alt="west end" usemap="#mapCardX">
 			<!--End of Map Content-->
 			<h2 id="social">hit us up on instagram</h2>
 			<!-- Instagram API will be placed here -->
@@ -122,8 +124,8 @@
 					</ol>
 
 					<h4 class="socialMedia">stay social</h4>
-					<span><a href="#"><img src="logos/instagram.png" alt=""></a></span>
-					<span><a href="#"><img src="logos/facebook.png" alt=""></a></span>
+					<span><a href="https://www.instagram.com/redlinebrokers/"><img src="logos/instagram.png" alt=""></a></span>
+					<span><a href="https://www.facebook.com/redlinebrokers/"><img src="logos/facebook.png" alt=""></a></span>
 					<span><a href="#"><img src="logos/twitter.png" alt=""></a></span>
 				</div>
 				<div class="contact">
