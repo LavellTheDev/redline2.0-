@@ -51,7 +51,7 @@ body {
      background-color: #262626;
      color: #FFF;
      font-size: 12px;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: Futura,Helvetica, Arial, sans-serif;
      height: 320em;
      line-height: 1.4;
 }
@@ -83,6 +83,7 @@ nav{
 } */
 
 li > h2{
+  color: #FFF;
   letter-spacing: 3px;
   margin: 0 0 -1em 0%;
 }
@@ -100,7 +101,7 @@ ul > li{
   width: 100%;
 }
 a{
-  color: #FFF;
+  color: blue;
   text-decoration: none;
 }
 li a:hover{
@@ -133,8 +134,8 @@ includes up until hit us up on instagram */
 .mainContent{
   background: #FFF;
   border: 1px solid transparent;
-  height: 320em;/*Might make this 220*/
-  max-height: ;
+  height: 260em;/*Might make this 220*/
+  max-height:320em ;
   margin: 10em auto;
   width: 95%;
   max-width: ;
@@ -160,7 +161,7 @@ also the blog button*********************
 .topFloorTypeface{
   color: #000;
   font-size: 2.5em;
-  margin: 0.5em 0 0 20%;
+  margin: 0.5em 0 0 26%;
   width: 100%;
 }
 .topFloor + p{
@@ -195,11 +196,11 @@ img + p {
   clear: both;
   color: #FFF;
   float: left;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 600;
-  height: 4.6em;
+  height: 3.8em;
   margin: -5em 0 0 17%;
-  width: 15%;
+  width: 13%;
 }
 /*****************************************
 ******************************************
@@ -220,6 +221,7 @@ Start of targeting h2 "All about Location"
   font-size: 4.5em;
   position: relative;
   top: 56px;
+  width: 30%;
 }
 
 button + h2{
@@ -270,8 +272,9 @@ p{
 }
 .faqContact{
   background: #262626;
-  border: 1px solid black;
-  height: 120em;
+  border: 1px solid transparent;
+  height: 60em;
+  max-height: 285em;
   margin: 10em 0 0 -0.1em;
   width: 100.1%;
 }
@@ -291,11 +294,13 @@ p{
   float: left;
   font-size: 1.5em;
   height: 30em;
+  overflow-x: auto;
   width: 48%
 }
 ol > li{
   display: block;
   margin: 24px 0 0 0;
+  overflow: hidden;
   padding: 5px;
 }
 /***********************************/
@@ -326,6 +331,7 @@ margin-right: 10px;
 .socialMedia{
   color: #fff;
   font-size: 3.2em;
+  font-weight: 800;
   margin: 1.2em 0 0 -51%;
 }
 a > img{/*the social media links and images*/
@@ -411,7 +417,349 @@ footer {
   ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) {
+  body {
+       background-color: #262626;
+       color: #FFF;
+       font-size: 12px;
+       font-family: Futura,Helvetica, Arial, sans-serif;
+       height: 320em;
+       line-height: 1.4;
+  }
 
+
+  /*******************************************/
+  /* LAYOUT
+  /*******************************************/
+
+  /* Center the container */
+  #container {
+  	width: 960px;
+  	margin: auto;
+  }
+
+  header {
+
+  }
+  /*start of targeting the nav*/
+  #mainNav{
+
+  }
+  nav{
+  }
+
+  /* .fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  } */
+
+  li > h2{
+    color: green;
+    letter-spacing: 3px;
+    margin: 0 0 -1em 0%;
+  }
+  .homeMove{
+    /*used to move the nav bar*/
+    margin: 0 0 0 50%;
+  }
+  ul > li{
+    display: inline;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 0 0 2%;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+  }
+  a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  li a:hover{
+    text-decoration: underline;
+  }
+  /*End of targeting the Nav*/
+  ul + hr{
+    margin: -0.9em 0 5em 3%;
+    width: 30%;
+  }
+  .banner{
+    background: #FFF;
+    border: 1px solid white;
+    height: 40em;
+    max-height: ;
+    margin: auto;
+    width: 95%;
+    max-width: ;
+  }
+  .mainBlogButton{
+    border: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    height: 2.8em;
+    margin: 2em 0 -1em 58%;
+    width: 35%;
+  }
+  /* Everything that falls under the main content section
+  includes up until hit us up on instagram */
+  .mainContent{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 260em;/*Might make this 220*/
+    max-height:320em ;
+    margin: 10em auto;
+    width: 95%;
+    max-width: ;
+  }
+  /*****************************************
+  ******************************************
+  Start of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+  .topFloor{
+    border: 0.555em solid #262626;
+    float: left;
+    margin: -4em 0 0 5%;
+  }
+  .titleBorderTop{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 8em 0 0 2%;
+    width: 20%;
+  }
+  .topFloorTypeface{
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 0 26%;
+    width: 100%;
+  }
+  .topFloor + p{
+    float: right;
+    margin: 0.5em 5% 0 0;
+  }
+  /*************targeting basementscene*/
+  .topBasement{
+    border: 0.555em solid #262626;
+    margin: -3em 0 0 0;
+  }
+  .titleBorderBottom{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 30em 0 0 75%;
+    width: 20%;
+  }
+  .topBasementTypeface{/*Targets basement scene typeface only*/
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 2.5em -28%;
+  }
+  img + p {
+    float: left;
+    font-size: 1.4em;
+    margin: 0 2% 0 5%;
+    width: 44%;
+  }
+  .blogButton{
+    background-color: #262626;
+    border: none;
+    clear: both;
+    color: #FFF;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 3.8em;
+    margin: -5em 0 0 17%;
+    width: 13%;
+  }
+  /*****************************************
+  ******************************************
+  END of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+
+
+  /*****************************************
+  ******************************************
+  Start of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .mainContent > h2{
+    color: #000;
+    font-size: 4.5em;
+    position: relative;
+    top: 56px;
+    width: 30%;
+  }
+
+  button + h2{
+    color: #000;
+    font-size: 4.5em;
+    margin: 1em 0 0 70%;
+    width: 25%;
+  }
+  /*****************************************
+  ******************************************
+  end of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .interactiveMap{
+    height: 550px;
+    width: 100%;
+  }
+  .mapCards{
+    width: 30%;
+    position: absolute;
+    left:2.1%;
+    top:2100px;
+    z-index: 100;
+  }
+  .hidden{
+    display: none;
+  }
+  img + h2 {
+    color: #000;
+    font-size: 4.5em;
+    width: 45%;
+  }
+  .moreButton{
+    background-color: #FFF;
+    border: .3em solid #8f8f8f;
+    font-size: 1.8em;
+    font-weight: 800;
+    height: 2.8em;
+    margin: 0 0 0 44%;
+    width: 10%;
+  }
+
+  h2{
+    color: #FFF;
+  }
+  p{
+    color: #000;
+  }
+  .faqContact{
+    background: #262626;
+    border: 1px solid transparent;
+    height: 60em;
+    max-height: 285em;
+    margin: 10em 0 0 -0.1em;
+    width: 100.1%;
+  }
+  .headers{
+    border: 1px solid transparent;
+    font-size: 4.5em;
+    font-weight: 800;
+    margin: 5px 0 -30px 0;
+    height: 2em;
+    width: 100%s
+  }
+  .contactHeader{
+    margin: 0 0 0 35%;
+  }
+  .faq{
+    border: 1px solid transparent;
+    float: left;
+    font-size: 1.5em;
+    height: 30em;
+    overflow-x: auto;
+    width: 48%
+  }
+  ol > li{
+    display: block;
+    margin: 24px 0 0 0;
+    overflow: hidden;
+    padding: 5px;
+  }
+  /***********************************/
+  /***********STarts the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  li.q{
+    cursor: default;
+    font-size: 1em;
+  }
+  li.a{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0 0 0 0;
+  }
+  li.q::before{
+  content: attr(data-icon);
+  margin-right: 10px;
+  }
+  /* li.q:hover{
+    text-decoration: underline;
+  } */
+
+  /***********************************/
+  /***********Ends the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  .socialMedia{
+    color: #fff;
+    font-size: 3.2em;
+    font-weight: 800;
+    margin: 1.2em 0 0 -51%;
+  }
+  a > img{/*the social media links and images*/
+  margin: 0.5em 0 0 2.5%;
+  width: 12%;
+  }
+
+  .contact{
+    border: 1px solid transparent;
+    float: left;
+    height: 35em;
+    margin: 0 0 0 2.5%;
+    width: 48%
+  }
+  #fname{
+    height: 2.5em;
+    width: 30%;
+  }
+  #lname{
+    height: 2.5em;
+    margin: 0 0 0 5%;
+    width: 30%;
+  }
+  #subject{
+    margin: 13px 0 0 0%;
+    width: 66.5%;
+  }
+  #submit{
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 1.3em 0 0 50%;
+  }
+  h4{
+    color: #000;
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+  .topEho{
+    font-weight: 400;
+    margin: 2.5em 0 0.5em 0;
+  }
+  .bottomEho{
+    font-weight: 400;
+    margin: 0.5em 0 0 0;
+  }
+  h4 + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+  footer {
+
+  }
 }
 
 
@@ -419,16 +767,1046 @@ footer {
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1140px) and (max-width: 1280px) {
+  body {
+       background-color: #262626;
+       color: #FFF;
+       font-size: 12px;
+       font-family: Futura,Helvetica, Arial, sans-serif;
+       height: 320em;
+       line-height: 1.4;
+  }
 
+
+  /*******************************************/
+  /* LAYOUT
+  /*******************************************/
+
+  /* Center the container */
+  #container {
+  	width: 960px;
+  	margin: auto;
+  }
+
+  header {
+
+  }
+  /*start of targeting the nav*/
+  #mainNav{
+
+  }
+  nav{
+  }
+
+  /* .fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  } */
+
+  li > h2{
+    color: purple;
+    letter-spacing: 3px;
+    margin: 0 0 -1em 0%;
+  }
+  .homeMove{
+    /*used to move the nav bar*/
+    margin: 0 0 0 50%;
+  }
+  ul > li{
+    display: inline;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 0 0 1.65%;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+  }
+  a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  li a:hover{
+    text-decoration: underline;
+  }
+  /*End of targeting the Nav*/
+  ul + hr{
+    margin: -0.9em 0 5em 3%;
+    width: 30%;
+  }
+  .banner{
+    background: #FFF;
+    border: 1px solid white;
+    height: 40em;
+    max-height: ;
+    margin: auto;
+    width: 95%;
+    max-width: ;
+  }
+  .mainBlogButton{
+    border: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    height: 2.8em;
+    margin: 2em 0 -1em 58%;
+    width: 35%;
+  }
+  /* Everything that falls under the main content section
+  includes up until hit us up on instagram */
+  .mainContent{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 260em;/*Might make this 220*/
+    max-height:320em ;
+    margin: 10em auto;
+    width: 95%;
+    max-width: ;
+  }
+  /*****************************************
+  ******************************************
+  Start of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+  .topFloor{
+    border: 0.555em solid #262626;
+    float: left;
+    margin: -4em 0 0 5%;
+  }
+  .titleBorderTop{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 8em 0 0 2%;
+    width: 20%;
+  }
+  .topFloorTypeface{
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 0 26%;
+    width: 100%;
+  }
+  .topFloor + p{
+    float: right;
+    margin: 0.5em 5% 0 0;
+  }
+  /*************targeting basementscene*/
+  .topBasement{
+    border: 0.555em solid #262626;
+    margin: -3em 0 0 0;
+  }
+  .titleBorderBottom{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 30em 0 0 75%;
+    width: 20%;
+  }
+  .topBasementTypeface{/*Targets basement scene typeface only*/
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 2.5em -28%;
+  }
+  img + p {
+    float: left;
+    font-size: 1.4em;
+    margin: 0 2% 0 5%;
+    width: 44%;
+  }
+  .blogButton{
+    background-color: #262626;
+    border: none;
+    clear: both;
+    color: #FFF;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 3.8em;
+    margin: -5em 0 0 17%;
+    width: 13%;
+  }
+  /*****************************************
+  ******************************************
+  END of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+
+
+  /*****************************************
+  ******************************************
+  Start of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .mainContent > h2{
+    color: #000;
+    font-size: 4.5em;
+    position: relative;
+    top: 56px;
+    width: 30%;
+  }
+
+  button + h2{
+    color: #000;
+    font-size: 4.5em;
+    margin: 1em 0 0 70%;
+    width: 25%;
+  }
+  /*****************************************
+  ******************************************
+  end of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .interactiveMap{
+    height: 550px;
+    width: 100%;
+  }
+  .mapCards{
+    width: 30%;
+    position: absolute;
+    left:2.1%;
+    top:2100px;
+    z-index: 100;
+  }
+  .hidden{
+    display: none;
+  }
+  img + h2 {
+    color: #000;
+    font-size: 4.5em;
+    width: 45%;
+  }
+  .moreButton{
+    background-color: #FFF;
+    border: .3em solid #8f8f8f;
+    font-size: 1.8em;
+    font-weight: 800;
+    height: 2.8em;
+    margin: 0 0 0 44%;
+    width: 10%;
+  }
+
+  h2{
+    color: #FFF;
+  }
+  p{
+    color: #000;
+  }
+  .faqContact{
+    background: #262626;
+    border: 1px solid transparent;
+    height: 60em;
+    max-height: 285em;
+    margin: 10em 0 0 -0.1em;
+    width: 100.1%;
+  }
+  .headers{
+    border: 1px solid transparent;
+    font-size: 4.5em;
+    font-weight: 800;
+    margin: 5px 0 -30px 0;
+    height: 2em;
+    width: 100%s
+  }
+  .contactHeader{
+    margin: 0 0 0 35%;
+  }
+  .faq{
+    border: 1px solid transparent;
+    float: left;
+    font-size: 1.5em;
+    height: 30em;
+    overflow-x: auto;
+    width: 48%
+  }
+  ol > li{
+    display: block;
+    margin: 24px 0 0 0;
+    overflow: hidden;
+    padding: 5px;
+  }
+  /***********************************/
+  /***********STarts the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  li.q{
+    cursor: default;
+    font-size: 1em;
+  }
+  li.a{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0 0 0 0;
+  }
+  li.q::before{
+  content: attr(data-icon);
+  margin-right: 10px;
+  }
+  /* li.q:hover{
+    text-decoration: underline;
+  } */
+
+  /***********************************/
+  /***********Ends the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  .socialMedia{
+    color: #fff;
+    font-size: 3.2em;
+    font-weight: 800;
+    margin: 1.2em 0 0 -51%;
+  }
+  a > img{/*the social media links and images*/
+  margin: 0.5em 0 0 2.5%;
+  width: 12%;
+  }
+
+  .contact{
+    border: 1px solid transparent;
+    float: left;
+    height: 35em;
+    margin: 0 0 0 2.5%;
+    width: 48%
+  }
+  #fname{
+    height: 2.5em;
+    width: 30%;
+  }
+  #lname{
+    height: 2.5em;
+    margin: 0 0 0 5%;
+    width: 30%;
+  }
+  #subject{
+    margin: 13px 0 0 0%;
+    width: 66.5%;
+  }
+  #submit{
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 1.3em 0 0 50%;
+  }
+  h4{
+    color: #000;
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+  .topEho{
+    font-weight: 400;
+    margin: 2.5em 0 0.5em 0;
+  }
+  .bottomEho{
+    font-weight: 400;
+    margin: 0.5em 0 0 0;
+  }
+  h4 + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+  footer {
+
+  }
 }
+@media (min-width: 1025px) and (max-width: 1140px) {
+  body {
+       background-color: #262626;
+       color: #FFF;
+       font-size: 12px;
+       font-family: Futura,Helvetica, Arial, sans-serif;
+       height: 320em;
+       line-height: 1.4;
+  }
 
+
+  /*******************************************/
+  /* LAYOUT
+  /*******************************************/
+
+  /* Center the container */
+  #container {
+  	width: 960px;
+  	margin: auto;
+  }
+
+  header {
+
+  }
+  /*start of targeting the nav*/
+  #mainNav{
+
+  }
+  nav{
+  }
+
+  /* .fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  } */
+
+  li > h2{
+    color: red;
+    letter-spacing: 3px;
+    margin: 0 0 -1em 0%;
+  }
+  .homeMove{
+    /*used to move the nav bar*/
+    margin: 0 0 0 50%;
+  }
+  ul > li{
+    display: inline;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 0 0 1.25%;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+  }
+  a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  li a:hover{
+    text-decoration: underline;
+  }
+  /*End of targeting the Nav*/
+  ul + hr{
+    margin: -0.9em 0 5em 3%;
+    width: 30%;
+  }
+  .banner{
+    background: #FFF;
+    border: 1px solid white;
+    height: 40em;
+    max-height: ;
+    margin: auto;
+    width: 95%;
+    max-width: ;
+  }
+  .mainBlogButton{
+    border: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    height: 2.8em;
+    margin: 2em 0 -1em 58%;
+    width: 35%;
+  }
+  /* Everything that falls under the main content section
+  includes up until hit us up on instagram */
+  .mainContent{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 260em;/*Might make this 220*/
+    max-height:320em ;
+    margin: 10em auto;
+    width: 95%;
+    max-width: ;
+  }
+  /*****************************************
+  ******************************************
+  Start of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+  .topFloor{
+    border: 0.555em solid #262626;
+    float: left;
+    margin: -4em 0 0 5%;
+  }
+  .titleBorderTop{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 8em 0 0 2%;
+    width: 20%;
+  }
+  .topFloorTypeface{
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 0 26%;
+    width: 100%;
+  }
+  .topFloor + p{
+    float: right;
+    margin: 0.5em 5% 0 0;
+  }
+  /*************targeting basementscene*/
+  .topBasement{
+    border: 0.555em solid #262626;
+    margin: -3em 0 0 0;
+  }
+  .titleBorderBottom{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 30em 0 0 75%;
+    width: 20%;
+  }
+  .topBasementTypeface{/*Targets basement scene typeface only*/
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 2.5em -28%;
+  }
+  img + p {
+    float: left;
+    font-size: 1.4em;
+    margin: 0 2% 0 5%;
+    width: 44%;
+  }
+  .blogButton{
+    background-color: #262626;
+    border: none;
+    clear: both;
+    color: #FFF;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 3.8em;
+    margin: -5em 0 0 17%;
+    width: 13%;
+  }
+  /*****************************************
+  ******************************************
+  END of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+
+
+  /*****************************************
+  ******************************************
+  Start of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .mainContent > h2{
+    color: #000;
+    font-size: 4.5em;
+    position: relative;
+    top: 56px;
+    width: 30%;
+  }
+
+  button + h2{
+    color: #000;
+    font-size: 4.5em;
+    margin: 1em 0 0 70%;
+    width: 25%;
+  }
+  /*****************************************
+  ******************************************
+  end of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .interactiveMap{
+    height: 550px;
+    width: 100%;
+  }
+  .mapCards{
+    width: 30%;
+    position: absolute;
+    left:2.1%;
+    top:2100px;
+    z-index: 100;
+  }
+  .hidden{
+    display: none;
+  }
+  img + h2 {
+    color: #000;
+    font-size: 4.5em;
+    width: 45%;
+  }
+  .moreButton{
+    background-color: #FFF;
+    border: .3em solid #8f8f8f;
+    font-size: 1.8em;
+    font-weight: 800;
+    height: 2.8em;
+    margin: 0 0 0 44%;
+    width: 10%;
+  }
+
+  h2{
+    color: #FFF;
+  }
+  p{
+    color: #000;
+  }
+  .faqContact{
+    background: #262626;
+    border: 1px solid transparent;
+    height: 60em;
+    max-height: 285em;
+    margin: 10em 0 0 -0.1em;
+    width: 100.1%;
+  }
+  .headers{
+    border: 1px solid transparent;
+    font-size: 4.5em;
+    font-weight: 800;
+    margin: 5px 0 -30px 0;
+    height: 2em;
+    width: 100%s
+  }
+  .contactHeader{
+    margin: 0 0 0 35%;
+  }
+  .faq{
+    border: 1px solid transparent;
+    float: left;
+    font-size: 1.5em;
+    height: 30em;
+    overflow-x: auto;
+    width: 48%
+  }
+  ol > li{
+    display: block;
+    margin: 24px 0 0 0;
+    overflow: hidden;
+    padding: 5px;
+  }
+  /***********************************/
+  /***********STarts the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  li.q{
+    cursor: default;
+    font-size: 1em;
+  }
+  li.a{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0 0 0 0;
+  }
+  li.q::before{
+  content: attr(data-icon);
+  margin-right: 10px;
+  }
+  /* li.q:hover{
+    text-decoration: underline;
+  } */
+
+  /***********************************/
+  /***********Ends the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  .socialMedia{
+    color: #fff;
+    font-size: 3.2em;
+    font-weight: 800;
+    margin: 1.2em 0 0 -51%;
+  }
+  a > img{/*the social media links and images*/
+  margin: 0.5em 0 0 2.5%;
+  width: 12%;
+  }
+
+  .contact{
+    border: 1px solid transparent;
+    float: left;
+    height: 35em;
+    margin: 0 0 0 2.5%;
+    width: 48%
+  }
+  #fname{
+    height: 2.5em;
+    width: 30%;
+  }
+  #lname{
+    height: 2.5em;
+    margin: 0 0 0 5%;
+    width: 30%;
+  }
+  #subject{
+    margin: 13px 0 0 0%;
+    width: 66.5%;
+  }
+  #submit{
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 1.3em 0 0 50%;
+  }
+  h4{
+    color: #000;
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+  .topEho{
+    font-weight: 400;
+    margin: 2.5em 0 0.5em 0;
+  }
+  .bottomEho{
+    font-weight: 400;
+    margin: 0.5em 0 0 0;
+  }
+  h4 + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+  footer {
+
+  }
+}
 
 /*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px){
+
+  body {
+       background-color: #262626;
+       color: #FFF;
+       font-size: 12px;
+       font-family: Futura,Helvetica, Arial, sans-serif;
+       height: 320em;
+       line-height: 1.4;
+  }
+
+
+  /*******************************************/
+  /* LAYOUT
+  /*******************************************/
+
+  /* Center the container */
+  #container {
+  	width: 960px;
+  	margin: auto;
+  }
+
+  header {
+
+  }
+  /*start of targeting the nav*/
+  #mainNav{
+
+  }
+  nav{
+  }
+
+  /* .fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  } */
+
+  li > h2{
+    color: yellow;
+    letter-spacing: 3px;
+    margin: 0 0 -1em 0%;
+  }
+  .homeMove{
+    /*used to move the nav bar*/
+    margin: 0 0 0 50%;
+  }
+  ul > li{
+    display: inline;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 0 0 1.05%;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+  }
+  a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  li a:hover{
+    text-decoration: underline;
+  }
+  /*End of targeting the Nav*/
+  ul + hr{
+    margin: -0.9em 0 5em 3%;
+    width: 30%;
+  }
+  .banner{
+    background: #FFF;
+    border: 1px solid white;
+    height: 40em;
+    max-height: ;
+    margin: auto;
+    width: 95%;
+    max-width: ;
+  }
+  .mainBlogButton{
+    border: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    height: 2.8em;
+    margin: 2em 0 -1em 58%;
+    width: 35%;
+  }
+  /* Everything that falls under the main content section
+  includes up until hit us up on instagram */
+  .mainContent{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 260em;/*Might make this 220*/
+    max-height:320em ;
+    margin: 10em auto;
+    width: 95%;
+    max-width: ;
+  }
+  /*****************************************
+  ******************************************
+  Start of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+  .topFloor{
+    border: 0.555em solid #262626;
+    float: left;
+    margin: -4em 0 0 5%;
+  }
+  .titleBorderTop{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 8em 0 0 2%;
+    width: 20%;
+  }
+  .topFloorTypeface{
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 0 26%;
+    width: 100%;
+  }
+  .topFloor + p{
+    float: right;
+    margin: 0.5em 5% 0 0;
+  }
+  /*************targeting basementscene*/
+  .topBasement{
+    border: 0.555em solid #262626;
+    margin: -3em 0 0 0;
+  }
+  .titleBorderBottom{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 30em 0 0 75%;
+    width: 20%;
+  }
+  .topBasementTypeface{/*Targets basement scene typeface only*/
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 2.5em -28%;
+  }
+  img + p {
+    float: left;
+    font-size: 1.4em;
+    margin: 0 2% 0 5%;
+    width: 44%;
+  }
+  .blogButton{
+    background-color: #262626;
+    border: none;
+    clear: both;
+    color: #FFF;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 3.8em;
+    margin: -5em 0 0 17%;
+    width: 13%;
+  }
+  /*****************************************
+  ******************************************
+  END of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+
+
+  /*****************************************
+  ******************************************
+  Start of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .mainContent > h2{
+    color: #000;
+    font-size: 4.5em;
+    position: relative;
+    top: 56px;
+    width: 30%;
+  }
+
+  button + h2{
+    color: #000;
+    font-size: 4.5em;
+    margin: 1em 0 0 70%;
+    width: 25%;
+  }
+  /*****************************************
+  ******************************************
+  end of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .interactiveMap{
+    height: 550px;
+    width: 100%;
+  }
+  .mapCards{
+    width: 30%;
+    position: absolute;
+    left:2.1%;
+    top:2100px;
+    z-index: 100;
+  }
+  .hidden{
+    display: none;
+  }
+  img + h2 {
+    color: #000;
+    font-size: 4.5em;
+    width: 45%;
+  }
+  .moreButton{
+    background-color: #FFF;
+    border: .3em solid #8f8f8f;
+    font-size: 1.8em;
+    font-weight: 800;
+    height: 2.8em;
+    margin: 0 0 0 44%;
+    width: 10%;
+  }
+
+  h2{
+    color: #FFF;
+  }
+  p{
+    color: #000;
+  }
+  .faqContact{
+    background: #262626;
+    border: 1px solid transparent;
+    height: 60em;
+    max-height: 285em;
+    margin: 10em 0 0 -0.1em;
+    width: 100.1%;
+  }
+  .headers{
+    border: 1px solid transparent;
+    font-size: 4.5em;
+    font-weight: 800;
+    margin: 5px 0 -30px 0;
+    height: 2em;
+    width: 100%s
+  }
+  .contactHeader{
+    margin: 0 0 0 35%;
+  }
+  .faq{
+    border: 1px solid transparent;
+    float: left;
+    font-size: 1.5em;
+    height: 30em;
+    overflow-x: auto;
+    width: 48%
+  }
+  ol > li{
+    display: block;
+    margin: 24px 0 0 0;
+    overflow: hidden;
+    padding: 5px;
+  }
+  /***********************************/
+  /***********STarts the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  li.q{
+    cursor: default;
+    font-size: 1em;
+  }
+  li.a{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0 0 0 0;
+  }
+  li.q::before{
+  content: attr(data-icon);
+  margin-right: 10px;
+  }
+  /* li.q:hover{
+    text-decoration: underline;
+  } */
+
+  /***********************************/
+  /***********Ends the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  .socialMedia{
+    color: #fff;
+    font-size: 3.2em;
+    font-weight: 800;
+    margin: 1.2em 0 0 -51%;
+  }
+  a > img{/*the social media links and images*/
+  margin: 0.5em 0 0 2.5%;
+  width: 12%;
+  }
+
+  .contact{
+    border: 1px solid transparent;
+    float: left;
+    height: 35em;
+    margin: 0 0 0 2.5%;
+    width: 48%
+  }
+  #fname{
+    height: 2.5em;
+    width: 30%;
+  }
+  #lname{
+    height: 2.5em;
+    margin: 0 0 0 5%;
+    width: 30%;
+  }
+  #subject{
+    margin: 13px 0 0 0%;
+    width: 66.5%;
+  }
+  #submit{
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 1.3em 0 0 50%;
+  }
+  h4{
+    color: #000;
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+  .topEho{
+    font-weight: 400;
+    margin: 2.5em 0 0.5em 0;
+  }
+  .bottomEho{
+    font-weight: 400;
+    margin: 0.5em 0 0 0;
+  }
+  h4 + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+  footer {
+
+  }
 
 }
 
@@ -439,13 +1817,703 @@ footer {
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-}
 
+
+}
+@media (min-width: 480px)and (max-width:768px){
+
+  body {
+       background-color: #262626;
+       color: #FFF;
+       font-size: 12px;
+       font-family: Futura,Helvetica, Arial, sans-serif;
+       height: 320em;
+       line-height: 1.4;
+  }
+
+
+  /*******************************************/
+  /* LAYOUT
+  /*******************************************/
+
+  /* Center the container */
+  #container {
+    width: 960px;
+    margin: auto;
+  }
+
+  header {
+
+  }
+  /*start of targeting the nav*/
+  #mainNav{
+
+  }
+  nav{
+  }
+
+  /* .fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  } */
+
+  li > h2{
+    color: orange;
+    letter-spacing: 3px;
+    margin: 0 0 -1em 0%;
+  }
+  .homeMove{
+    /*used to move the nav bar*/
+    margin: 0 0 0 50%;
+  }
+  ul > li{
+    display: inline;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 0 0 0.1%;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+  }
+  a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  li a:hover{
+    text-decoration: underline;
+  }
+  /*End of targeting the Nav*/
+  ul + hr{
+    margin: -0.9em 0 5em 3%;
+    width: 30%;
+  }
+  .banner{
+    background: #FFF;
+    border: 1px solid white;
+    height: 40em;
+    max-height: ;
+    margin: auto;
+    width: 95%;
+    max-width: ;
+  }
+  .mainBlogButton{
+    border: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    height: 2.8em;
+    margin: 2em 0 -1em 58%;
+    width: 35%;
+  }
+  /* Everything that falls under the main content section
+  includes up until hit us up on instagram */
+  .mainContent{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 260em;/*Might make this 220*/
+    max-height:320em ;
+    margin: 10em auto;
+    width: 95%;
+    max-width: ;
+  }
+  /*****************************************
+  ******************************************
+  Start of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+  .topFloor{
+    border: 0.555em solid #262626;
+    float: left;
+    margin: -4em 0 0 5%;
+  }
+  .titleBorderTop{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 8em 0 0 2%;
+    width: 20%;
+  }
+  .topFloorTypeface{
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 0 26%;
+    width: 100%;
+  }
+  .topFloor + p{
+    float: right;
+    margin: 0.5em 5% 0 0;
+  }
+  /*************targeting basementscene*/
+  .topBasement{
+    border: 0.555em solid #262626;
+    margin: -3em 0 0 0;
+  }
+  .titleBorderBottom{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 30em 0 0 75%;
+    width: 20%;
+  }
+  .topBasementTypeface{/*Targets basement scene typeface only*/
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 2.5em -28%;
+  }
+  img + p {
+    float: left;
+    font-size: 1.4em;
+    margin: 0 2% 0 5%;
+    width: 44%;
+  }
+  .blogButton{
+    background-color: #262626;
+    border: none;
+    clear: both;
+    color: #FFF;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 3.8em;
+    margin: -5em 0 0 17%;
+    width: 13%;
+  }
+  /*****************************************
+  ******************************************
+  END of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+
+
+  /*****************************************
+  ******************************************
+  Start of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .mainContent > h2{
+    color: #000;
+    font-size: 4.5em;
+    position: relative;
+    top: 56px;
+    width: 30%;
+  }
+
+  button + h2{
+    color: #000;
+    font-size: 4.5em;
+    margin: 1em 0 0 70%;
+    width: 25%;
+  }
+  /*****************************************
+  ******************************************
+  end of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .interactiveMap{
+    height: 550px;
+    width: 100%;
+  }
+  .mapCards{
+    width: 30%;
+    position: absolute;
+    left:2.1%;
+    top:2100px;
+    z-index: 100;
+  }
+  .hidden{
+    display: none;
+  }
+  img + h2 {
+    color: #000;
+    font-size: 4.5em;
+    width: 45%;
+  }
+  .moreButton{
+    background-color: #FFF;
+    border: .3em solid #8f8f8f;
+    font-size: 1.8em;
+    font-weight: 800;
+    height: 2.8em;
+    margin: 0 0 0 44%;
+    width: 10%;
+  }
+
+  h2{
+    color: #FFF;
+  }
+  p{
+    color: #000;
+  }
+  .faqContact{
+    background: #262626;
+    border: 1px solid transparent;
+    height: 60em;
+    max-height: 285em;
+    margin: 10em 0 0 -0.1em;
+    width: 100.1%;
+  }
+  .headers{
+    border: 1px solid transparent;
+    font-size: 4.5em;
+    font-weight: 800;
+    margin: 5px 0 -30px 0;
+    height: 2em;
+    width: 100%s
+  }
+  .contactHeader{
+    margin: 0 0 0 35%;
+  }
+  .faq{
+    border: 1px solid transparent;
+    float: left;
+    font-size: 1.5em;
+    height: 30em;
+    overflow-x: auto;
+    width: 48%
+  }
+  ol > li{
+    display: block;
+    margin: 24px 0 0 0;
+    overflow: hidden;
+    padding: 5px;
+  }
+  /***********************************/
+  /***********STarts the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  li.q{
+    cursor: default;
+    font-size: 1em;
+  }
+  li.a{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0 0 0 0;
+  }
+  li.q::before{
+  content: attr(data-icon);
+  margin-right: 10px;
+  }
+  /* li.q:hover{
+    text-decoration: underline;
+  } */
+
+  /***********************************/
+  /***********Ends the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  .socialMedia{
+    color: #fff;
+    font-size: 3.2em;
+    font-weight: 800;
+    margin: 1.2em 0 0 -51%;
+  }
+  a > img{/*the social media links and images*/
+  margin: 0.5em 0 0 2.5%;
+  width: 12%;
+  }
+
+  .contact{
+    border: 1px solid transparent;
+    float: left;
+    height: 35em;
+    margin: 0 0 0 2.5%;
+    width: 48%
+  }
+  #fname{
+    height: 2.5em;
+    width: 30%;
+  }
+  #lname{
+    height: 2.5em;
+    margin: 0 0 0 5%;
+    width: 30%;
+  }
+  #subject{
+    margin: 13px 0 0 0%;
+    width: 66.5%;
+  }
+  #submit{
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 1.3em 0 0 50%;
+  }
+  h4{
+    color: #000;
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+  .topEho{
+    font-weight: 400;
+    margin: 2.5em 0 0.5em 0;
+  }
+  .bottomEho{
+    font-weight: 400;
+    margin: 0.5em 0 0 0;
+  }
+  h4 + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+  footer {
+
+  }
+
+}
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 320px) and (max-width: 480px) {
+  body {
+       background-color: #262626;
+       color: #FFF;
+       font-size: 12px;
+       font-family: Futura,Helvetica, Arial, sans-serif;
+       height: 320em;
+       line-height: 1.4;
+  }
+
+
+  /*******************************************/
+  /* LAYOUT
+  /*******************************************/
+
+  /* Center the container */
+  #container {
+    width: 960px;
+    margin: auto;
+  }
+
+  header {
+
+  }
+  /*start of targeting the nav*/
+  #mainNav{
+
+  }
+  nav{
+  }
+
+  /* .fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  } */
+
+  li > h2{
+    letter-spacing: 3px;
+    margin: 0 0 -1em 0%;
+  }
+  .homeMove{
+    /*used to move the nav bar*/
+    margin: 0 0 0 50%;
+  }
+  ul > li{
+    display: inline;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 0 0 1.5%;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+  }
+  a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  li a:hover{
+    text-decoration: underline;
+  }
+  /*End of targeting the Nav*/
+  ul + hr{
+    margin: -0.9em 0 5em 3%;
+    width: 30%;
+  }
+  .banner{
+    background: #FFF;
+    border: 1px solid white;
+    height: 40em;
+    max-height: ;
+    margin: auto;
+    width: 95%;
+    max-width: ;
+  }
+  .mainBlogButton{
+    border: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    height: 2.8em;
+    margin: 2em 0 -1em 58%;
+    width: 35%;
+  }
+  /* Everything that falls under the main content section
+  includes up until hit us up on instagram */
+  .mainContent{
+    background: #FFF;
+    border: 1px solid transparent;
+    height: 260em;/*Might make this 220*/
+    max-height:320em ;
+    margin: 10em auto;
+    width: 95%;
+    max-width: ;
+  }
+  /*****************************************
+  ******************************************
+  Start of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+  .topFloor{
+    border: 0.555em solid #262626;
+    float: left;
+    margin: -4em 0 0 5%;
+  }
+  .titleBorderTop{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 8em 0 0 2%;
+    width: 20%;
+  }
+  .topFloorTypeface{
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 0 26%;
+    width: 100%;
+  }
+  .topFloor + p{
+    float: right;
+    margin: 0.5em 5% 0 0;
+  }
+  /*************targeting basementscene*/
+  .topBasement{
+    border: 0.555em solid #262626;
+    margin: -3em 0 0 0;
+  }
+  .titleBorderBottom{
+    border: .5em solid grey;
+    height: 9em;
+    margin: 30em 0 0 75%;
+    width: 20%;
+  }
+  .topBasementTypeface{/*Targets basement scene typeface only*/
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.5em 0 2.5em -28%;
+  }
+  img + p {
+    float: left;
+    font-size: 1.4em;
+    margin: 0 2% 0 5%;
+    width: 44%;
+  }
+  .blogButton{
+    background-color: #262626;
+    border: none;
+    clear: both;
+    color: #FFF;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 3.8em;
+    margin: -5em 0 0 17%;
+    width: 13%;
+  }
+  /*****************************************
+  ******************************************
+  END of Targets the about section of the website
+  this includes topfloor and basement scene
+  also the blog button*********************
+  ******************************************
+  *******************************************/
+
+
+  /*****************************************
+  ******************************************
+  Start of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .mainContent > h2{
+    color: #000;
+    font-size: 4.5em;
+    position: relative;
+    top: 56px;
+    width: 30%;
+  }
+
+  button + h2{
+    color: #000;
+    font-size: 4.5em;
+    margin: 1em 0 0 70%;
+    width: 25%;
+  }
+  /*****************************************
+  ******************************************
+  end of targeting h2 "All about Location"
+  ******************************************
+  *******************************************/
+  .interactiveMap{
+    height: 550px;
+    width: 100%;
+  }
+  .mapCards{
+    width: 30%;
+    position: absolute;
+    left:2.1%;
+    top:2100px;
+    z-index: 100;
+  }
+  .hidden{
+    display: none;
+  }
+  img + h2 {
+    color: #000;
+    font-size: 4.5em;
+    width: 45%;
+  }
+  .moreButton{
+    background-color: #FFF;
+    border: .3em solid #8f8f8f;
+    font-size: 1.8em;
+    font-weight: 800;
+    height: 2.8em;
+    margin: 0 0 0 44%;
+    width: 10%;
+  }
+
+  h2{
+    color: #FFF;
+  }
+  p{
+    color: #000;
+  }
+  .faqContact{
+    background: #262626;
+    border: 1px solid transparent;
+    height: 60em;
+    max-height: 285em;
+    margin: 10em 0 0 -0.1em;
+    width: 100.1%;
+  }
+  .headers{
+    border: 1px solid transparent;
+    font-size: 4.5em;
+    font-weight: 800;
+    margin: 5px 0 -30px 0;
+    height: 2em;
+    width: 100%s
+  }
+  .contactHeader{
+    margin: 0 0 0 35%;
+  }
+  .faq{
+    border: 1px solid transparent;
+    float: left;
+    font-size: 1.5em;
+    height: 30em;
+    overflow-x: auto;
+    width: 48%
+  }
+  ol > li{
+    display: block;
+    margin: 24px 0 0 0;
+    overflow: hidden;
+    padding: 5px;
+  }
+  /***********************************/
+  /***********STarts the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  li.q{
+    cursor: default;
+    font-size: 1em;
+  }
+  li.a{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0 0 0 0;
+  }
+  li.q::before{
+  content: attr(data-icon);
+  margin-right: 10px;
+  }
+  /* li.q:hover{
+    text-decoration: underline;
+  } */
+
+  /***********************************/
+  /***********Ends the *************/
+  /***********Faq Page ***************/
+  /***********Jquery Code*************/
+  .socialMedia{
+    color: #fff;
+    font-size: 3.2em;
+    font-weight: 800;
+    margin: 1.2em 0 0 -51%;
+  }
+  a > img{/*the social media links and images*/
+  margin: 0.5em 0 0 2.5%;
+  width: 12%;
+  }
+
+  .contact{
+    border: 1px solid transparent;
+    float: left;
+    height: 35em;
+    margin: 0 0 0 2.5%;
+    width: 48%
+  }
+  #fname{
+    height: 2.5em;
+    width: 30%;
+  }
+  #lname{
+    height: 2.5em;
+    margin: 0 0 0 5%;
+    width: 30%;
+  }
+  #subject{
+    margin: 13px 0 0 0%;
+    width: 66.5%;
+  }
+  #submit{
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 1.3em 0 0 50%;
+  }
+  h4{
+    color: #000;
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+  .topEho{
+    font-weight: 400;
+    margin: 2.5em 0 0.5em 0;
+  }
+  .bottomEho{
+    font-weight: 400;
+    margin: 0.5em 0 0 0;
+  }
+  h4 + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+  footer {
+
+  }
 
 }
