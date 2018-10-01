@@ -871,7 +871,8 @@ footer {
   .topFloor{
     border: 0.555em solid #262626;
     float: left;
-    margin: -4em 0 0 5%;
+    margin: -4em 0 0 4%;
+    width: 45%;
   }
   .titleBorderTop{
     border: .5em solid grey;
@@ -882,28 +883,30 @@ footer {
   .topFloorTypeface{
     color: #000;
     font-size: 2.5em;
-    margin: 0.5em 0 0 26%;
+    margin: 0.5em 0 0 20%;
     width: 100%;
   }
   .topFloor + p{
     float: right;
-    margin: 0.5em 5% 0 0;
+    margin: 0.5em 3% 0 0;
   }
   /*************targeting basementscene*/
   .topBasement{
     border: 0.555em solid #262626;
     margin: -3em 0 0 0;
+    width: 45%;
   }
   .titleBorderBottom{
     border: .5em solid grey;
     height: 9em;
-    margin: 30em 0 0 75%;
+    margin: 30em 0 0 78%;
     width: 20%;
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
     font-size: 2.5em;
-    margin: 0.5em 0 2.5em -28%;
+    font-weight: 800;
+    margin: 0.5em 0 2.5em -32%;
   }
   img + p {
     float: left;
@@ -920,7 +923,7 @@ footer {
     font-size: 1.2em;
     font-weight: 600;
     height: 3.8em;
-    margin: -5em 0 0 17%;
+    margin: 0em 0 0 17%;
     width: 13%;
   }
   /*****************************************
