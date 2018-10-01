@@ -70,6 +70,11 @@ body {
 header {
 
 }
+/*CONNECTED TO INDEX2*/
+  .blogPage{
+    margin: 0 0 0 10%;
+  }
+/*CONNECTED TO INDEX2*/
 /*start of targeting the nav*/
 #mainNav{
 
@@ -465,7 +470,7 @@ footer {
     display: inline;
     font-size: 1.5em;
     list-style-type: none;
-    margin: 0 0 0 2%;
+    margin: 0 0 0 1.8%;
     overflow: hidden;
     padding: 0;
     width: 100%;
