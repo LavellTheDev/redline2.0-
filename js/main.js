@@ -188,3 +188,24 @@ $(document).ready(function(){
   });
 });
 //End of map
+
+////////////////start backtotop////////////////////
+
+$(document).ready(function(){
+      var btt = $('.backToTop');
+
+      $(window).on('scroll', function(){
+          var self = $(this),
+              height = self.height(),
+              top = self.scrollTop();
+          if(top > height) {
+            if(!btt.is(':visible')){
+                btt.show()
+            }
+          }else{
+            btt.hide();
+          }
+      });
+});
+
+///////////////end of backtotop///////////////////

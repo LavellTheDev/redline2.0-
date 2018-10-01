@@ -126,6 +126,21 @@ ul + hr{
   width: 95%;
   max-width: ;
 }
+/**********************************************/
+/********BEGINNING OF BACK TO TOP BUTTON*******/
+/*********************************************/
+.backToTop{
+  background-color:grey ;
+  color: white;
+  display: none;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+/*********************************************/
+/*******END OF BACK TO TOP BUTTON*************/
+/*********************************************/
 .mainBlogButton{
   border: none;
   font-size: 1.6em;
