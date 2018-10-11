@@ -112,6 +112,9 @@ a{
 li a:hover{
   text-decoration: underline;
 }
+/* .hiddenDesktop{
+  display:
+} */
 /*End of targeting the Nav*/
 ul + hr{
   margin: -0.9em 0 5em 3%;
@@ -497,6 +500,9 @@ footer {
   li a:hover{
     text-decoration: underline;
   }
+  .hiddenDesktop{
+    display: none;
+  }
   /*End of targeting the Nav*/
   ul + hr{
     margin: -0.9em 0 5em 3%;
@@ -847,6 +853,9 @@ footer {
   }
   li a:hover{
     text-decoration: underline;
+  }
+  .hiddenDesktop{
+    display: none;
   }
   /*End of targeting the Nav*/
   ul + hr{
@@ -1557,17 +1566,30 @@ footer {
   }
   .homeMove{
     /*used to move the nav bar*/
-    margin: 0 0 0 50%;
+    margin: 0 0 0 0;
   }
   .hiddenDesktop{
     margin: 0 0 0 75%;
+    position: fixed;
+    top: 20px;
   }
   /*Hides original nav links*/
   .hiddenMobile{
-    display: none;
+    /* display: none; */
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+  }
+  /* .sidebar{
+    display: block;
+  } */
+  .sidebar{
+    background: grey;
+    font-size: 1.5em;
+    margin: 0 0 0 -14%;
+    padding: 5px 15px;
+    width: 50%;
   }
   ul > li{
-    display: inline;
+    display: block;
     font-size: 1.5em;
     list-style-type: none;
     margin: 0 0 0 1.25%;
