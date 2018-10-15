@@ -838,7 +838,7 @@ footer {
     /*used to move the nav bar*/
     margin: 0 0 0 50%;
   }
-  ul > li{
+  div > li{
     display: inline;
     font-size: 1.5em;
     list-style-type: none;
