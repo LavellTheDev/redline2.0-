@@ -209,3 +209,11 @@ $(document).ready(function(){
 });
 
 ///////////////end of backtotop///////////////////
+
+////Start of Reveal Side Bar/////////////////////
+  $(document).ready(function(){
+      $('.toggleSide').on('click', function(){
+        $('').toggle(1000); 
+    });
+  });
+////////End of Reveal Side Bar//////////////////
