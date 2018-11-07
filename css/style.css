@@ -835,7 +835,7 @@ footer {
   li > h2{
     color: purple;
     letter-spacing: 3px;
-    margin: 0 0 -1em 0%;
+    margin: 0 0 -1em -92%;
   }
   .homeMove{
     /*used to move the nav bar*/
@@ -887,7 +887,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 260em;/*Might make this 220*/
+    height: 291em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -903,20 +903,20 @@ footer {
   .topFloor{
     border: 0.555em solid #262626;
     float: left;
-    margin: -4em 0 0 4%;
-    width: 45%;
+    margin: -3.5em 0 0 6%;
+    width: 43%;
   }
   .titleBorderTop{
     border: .5em solid grey;
-    height: 9em;
-    margin: 8em 0 0 2%;
-    width: 20%;
+    height: 7.75em;
+    margin: 12em 0 0 2%;
+    width: 17%;
   }
   .topFloorTypeface{
     color: #000;
     font-size: 2.5em;
-    margin: 0.5em 0 0 15%;
-    width: 101%;
+    margin: 0.3em 0 0 8%;
+    width: 121%;
   }
   .topFloor + p{
     float: right;
@@ -925,20 +925,20 @@ footer {
   /*************targeting basementscene*/
   .topBasement{
     border: 0.555em solid #262626;
-    margin: -3em 0 0 0;
-    width: 45%;
+    margin: -3em 0 -2.22em 0;
+    width: 43%;
   }
   .titleBorderBottom{
     border: .5em solid grey;
-    height: 9em;
-    margin: 30em 0 0 78%;
-    width: 20%;
+    height: 7.75em;
+    margin: 26em 0 0 80%;
+    width: 17%;
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
     font-size: 2.5em;
     font-weight: 800;
-    margin: 0.5em 0 2.5em -32%;
+    margin: 0.5em 0 2.5em -36%;
   }
   img + p {
     float: left;
@@ -977,6 +977,7 @@ footer {
     font-size: 4.5em;
     position: relative;
     top: 56px;
+    text-align: left;
     width: 30%;
   }
 
@@ -1006,9 +1007,11 @@ footer {
     display: none;
   }
   .instagramCarsoul{
+    background: #262626;
     border: 1px solid black;
-    height: 250px;
-    width: 100%;
+    height: 440px;
+    margin: auto;
+    width: 98%;
   }
   img + h2 {
     color: #000;
@@ -1021,7 +1024,7 @@ footer {
     font-size: 1.8em;
     font-weight: 800;
     height: 2.8em;
-    margin: 0 0 0 44%;
+    margin: 15px 0 0 44%;
     width: 10%;
   }
 
@@ -1050,6 +1053,12 @@ footer {
   .contactHeader{
     margin: 0 0 0 35%;
   }
+  .contactHeaderTwo{
+    text-align: left;
+  }
+  /* .contactHeaderTwo span{
+    color: red;
+  } */
   .faq{
     border: 1px solid transparent;
     float: left;
@@ -1093,7 +1102,7 @@ footer {
     color: #fff;
     font-size: 3.2em;
     font-weight: 800;
-    margin: 1.2em 0 0 -51%;
+    margin: 1.2em 0 0 -50%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
