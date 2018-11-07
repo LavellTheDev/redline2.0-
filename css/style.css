@@ -977,6 +977,7 @@ footer {
     font-size: 4.5em;
     position: relative;
     top: 56px;
+    left: 3%;
     text-align: left;
     width: 30%;
   }
@@ -1039,7 +1040,7 @@ footer {
     border: 1px solid transparent;
     height: 60em;
     max-height: 285em;
-    margin: 10em 0 0 -0.1em;
+    margin: 8em 0 0 -0.1em;
     width: 100.1%;
   }
   .headers{
