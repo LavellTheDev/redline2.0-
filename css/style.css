@@ -979,7 +979,7 @@ footer {
     top: 56px;
     left: 3%;
     text-align: left;
-    width: 30%;
+    width: 25%;
   }
 
   button + h2{
@@ -1117,7 +1117,10 @@ footer {
     margin: 0 0 0 2.5%;
     width: 48%
   }
-  #fname{
+  .emailHover:hover{
+    color: grey;
+  }
+  /* #fname{
     height: 2.5em;
     width: 30%;
   }
@@ -1137,7 +1140,7 @@ footer {
     font-size: 1.3em;
     font-weight: 700;
     margin: 1.3em 0 0 50%;
-  }
+  } */
   h4{
     color: #000;
     font-size: 1.2em;
