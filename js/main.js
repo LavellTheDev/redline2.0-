@@ -212,8 +212,8 @@ $(document).ready(function(){
 
 ////Start of Reveal Side Bar/////////////////////
   $(document).ready(function(){
-      $('.toggleSide').on('click', function(){
-        $('').toggle(1000); 
+      $('.svg-inline--fa.fa-bars.fa-w-14').on('click', function(){
+        $('.sidebar').toggle(1000);
     });
   });
 ////////End of Reveal Side Bar//////////////////
