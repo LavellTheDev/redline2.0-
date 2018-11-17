@@ -1781,13 +1781,28 @@ footer {
   .hidden{
     display: none;
   }
+  /* Starting the Accordian Code */
+  /* Starting the Accordian Code */
+  /* Starting the Accordian Code */
+  /* Starting the Accordian Code */
+  /* Starting the Accordian Code */
   .accordianMenu{
     background: #262626;
     border: 1px solid #262626;
     height: 50px;
-    margin: 10px auto;
+    margin: 15px auto;
+    width: 99%;
+    max-width: 600px;
+  }
+  button.accordian{
+    background-color: whitesmoke;
     width: 99%;
   }
+  /* Ending the Accordian Code  */
+  /* Ending the Accordian Code  */
+  /* Ending the Accordian Code  */
+  /* Ending the Accordian Code  */
+  /* Ending the Accordian Code  */
   #social{
     margin: 0 0 0 0;
   }
