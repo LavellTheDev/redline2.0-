@@ -1803,7 +1803,14 @@ footer {
     padding: 15px 20px;
     text-align: left;
     transition: background-color 0.2s linear;
-    width: 99%;
+    width: 100%;
+  }
+
+  button.accordian::after{
+    content: '\f055';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
   }
 
   button.accordian:hover{
@@ -1811,12 +1818,18 @@ footer {
     color: white;
   }
 
+
   .accordianPanel{
     border-left: 1px solid whitesmoke;
     border-right: 1px solid whitesmoke;
     max-height: 0;
     overflow: hidden;
     padding: 0 20px;
+    transition: max-height 0.2s ease-in-out;
+  }
+
+  .panelFont{
+    color: white;
   }
 
   /* Ending the Accordian Code  */
@@ -1865,6 +1878,7 @@ footer {
     width: 100%s
   }
   .contactHeader{
+    display: none;
     margin: 0 0 0 -49%;
     position: absolute;
     top: 2994px;
@@ -1877,6 +1891,9 @@ footer {
     height: 17em;
     overflow-x: auto;
     width: 100%
+  }
+  {/*this targets h2 for get in touch*/
+
   }
   ol > li{
     display: block;
