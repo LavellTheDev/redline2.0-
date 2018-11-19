@@ -210,14 +210,6 @@ $(document).ready(function(){
 
 ///////////////end of backtotop///////////////////
 
-////Start of Reveal Side Bar/////////////////////
-  $(document).ready(function(){
-      $('.svg-inline--fa.fa-bars.fa-w-14').on('click', function(){
-        $('.sidebar').toggle(1000);
-    });
-  });
-////////End of Reveal Side Bar//////////////////
-
 //start accordian js//
 //start accordian js//
 //start accordian js//
@@ -225,8 +217,9 @@ var accordians = document.getElementsByClassName("accordian")
 
 for (var i = 0; i < accordians.length; i++) {
   accordians[i].onclick = function (){
-    var content = this.nextElementSibling;
+    this.classList.toggle('is-open');
 
+    var content = this.nextElementSibling;
     if (content.style.maxHeight) {
       //if accordian is open we need to close it
       content.style.maxHeight = null;
@@ -239,3 +232,11 @@ for (var i = 0; i < accordians.length; i++) {
 //end accordian js//
 //end accordian js//
 //end accordian js//
+
+////Start of Reveal Side Bar/////////////////////
+  $(document).ready(function(){
+      $('.fa.fa-bars').on('click', function(){
+        $('.sidebar').toggle(1000);
+    });
+  });
+////////End of Reveal Side Bar//////////////////

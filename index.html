@@ -9,49 +9,14 @@
 
 		<title>redline</title>
 		<!-- external CSS link -->
-		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> -->
 		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" href="css/magnific.css">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<!-- <link rel="stylesheet" href="css/style3.css"> -->
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 
-<!-- <style type='text/css'>
-/* Body for this page */
-body{margin:0 auto;}
-.nav {background:white;color:black;height:80px;padding:15px;}
-.nav, p {font-family: 'Open Sans';font-weight: 500;text-align: center;}
-
-/* Instagrid.css */
-instagrid-title, h2, p {text-align: center;font-family: 'Open Sans';}
-strong {font-weight:800;}
-
-/* Instagrid.css media queries */
-@media screen and (max-width : 480px) {
-#ody li{width:25%}
-#ody li:nth-child(1){width:50%}
-}
-#ody{width:100%;display:block;margin:0;padding:0;line-height:0}
-#ody img{height:100%;width:100%}
-#ody a{padding:0;margin:0;position:relative;display:inline-block}
-#ody li{width:16.66%;display:inline-block;position:relative;margin:0!important;padding:0px!important;float:left}
-#ody li:nth-child(1){width:33.33%}
-
-/*#ody li:nth-child(2) {
-    width: 33.33%;
-}*/
-#ody .instagrid-z{width:100%;height:100%;margin-top:-100%;opacity:0;letter-spacing:1px;background:rgba(0,0,0,0.7);position:absolute;font:normal 600 12px Catamaran, sans-serif;color:#ffffff;line-height:normal}
-#ody a:hover .instagrid-z{opacity:1;zoom:1;filter:alpha(opacity=100)}
-.instagrids{display:table;vertical-align:middle;height:100%;width:100%}
-.instagrid-outter{display:table-cell;vertical-align:middle;height:100%;width:100%;text-align:center;}
-#instagridz.widget.insta h2.title{text-align:center;}
-#instagridz.widget.insta h2.title:before{content:&#39;&#39;;border-top:0px solid #efefef;left:0;right:0;position:absolute;top:50%}
-#instagridz.widget.insta h2.title p{display:inline-block;background:#000;padding:0 20px;position:relative}}
-</style>
-
-
-<script type='text/javascript'>
-(function(){var e,t;e=function(){function e(e,t){var n,r;this.options={target:"ody",get:"popular",resolution:"thumbnail",sortBy:"none",links:!0,mock:!1,useHttp:!1};if(typeof e=="object")for(n in e)r=e[n],this.options[n]=r;this.context=t!=null?t:this,this.unique=this._genKey()}return e.prototype.hasNext=function(){return typeof this.context.nextUrl=="string"&&this.context.nextUrl.length>0},e.prototype.next=function(){return this.hasNext()?this.run(this.context.nextUrl):!1},e.prototype.run=function(t){var n,r,i;if(typeof this.options.clientId!="string"&&typeof this.options.accessToken!="string")throw new Error("Missing clientId or accessToken.");if(typeof this.options.accessToken!="string"&&typeof this.options.clientId!="string")throw new Error("Missing clientId or accessToken.");return this.options.before!=null&&typeof this.options.before=="function"&&this.options.before.call(this),typeof document!="undefined"&&document!==null&&(i=document.createElement("script"),i.id="ody-fetcher",i.src=t||this._buildUrl(),n=document.getElementsByTagName("head"),n[0].appendChild(i),r="odyCache"+this.unique,window[r]=new e(this.options,this),window[r].unique=this.unique),!0},e.prototype.parse=function(e){var t,n,r,i,s,o,u,a,f,l,c,h,p,d,v,m,g,y,b,w,E,S;if(typeof e!="object"){if(this.options.error!=null&&typeof this.options.error=="function")return this.options.error.call(this,"Invalid JSON data"),!1;throw new Error("Invalid JSON response")}if(e.meta.code!==200){if(this.options.error!=null&&typeof this.options.error=="function")return this.options.error.call(this,e.meta.error_message),!1;throw new Error("Error from Instagram: "+e.meta.error_message)}if(e.data.length===0){if(this.options.error!=null&&typeof this.options.error=="function")return this.options.error.call(this,"No images were returned from Instagram"),!1;throw new Error("No images were returned from Instagram")}this.options.success!=null&&typeof this.options.success=="function"&&this.options.success.call(this,e),this.context.nextUrl="",e.pagination!=null&&(this.context.nextUrl=e.pagination.next_url);if(this.options.sortBy!=="none"){this.options.sortBy==="random"?d=["","random"]:d=this.options.sortBy.split("-"),p=d[0]==="least"?!0:!1;switch(d[1]){case"random":e.data.sort(function(){return.5-Math.random()});break;case"recent":e.data=this._sortBy(e.data,"created_time",p);break;case"liked":e.data=this._sortBy(e.data,"likes.count",p);break;case"commented":e.data=this._sortBy(e.data,"comments.count",p);break;default:throw new Error("Invalid option for sortBy: '"+this.options.sortBy+"'.")}}if(typeof document!="undefined"&&document!==null&&this.options.mock===!1){a=e.data,this.options.limit!=null&&a.length>this.options.limit&&(a=a.slice(0,this.options.limit+1||9e9)),n=document.createDocumentFragment(),this.options.filter!=null&&typeof this.options.filter=="function"&&(a=this._filter(a,this.options.filter));if(this.options.template!=null&&typeof this.options.template=="string"){i="",o="",l="",v=document.createElement("div");for(m=0,b=a.length;m<b;m++)s=a[m],u=s.images[this.options.resolution].url,this.options.useHttp||(u=u.replace("http://","//")),o=this._makeTemplate(this.options.template,{model:s,id:s.id,link:s.link,image:u,caption:this._getObjectProperty(s,"caption.text"),likes:s.likes.count,comments:s.comments.count,location:this._getObjectProperty(s,"location.name")}),i+=o;v.innerHTML=i,S=[].slice.call(v.childNodes);for(g=0,w=S.length;g<w;g++)h=S[g],n.appendChild(h)}else for(y=0,E=a.length;y<E;y++)s=a[y],f=document.createElement("img"),u=s.images[this.options.resolution].url,this.options.useHttp||(u=u.replace("http://","//")),f.src=u,this.options.links===!0?(t=document.createElement("a"),t.href=s.link,t.appendChild(f),n.appendChild(t)):n.appendChild(f);document.getElementById(this.options.target).appendChild(n),r=document.getElementsByTagName("head")[0],r.removeChild(document.getElementById("ody-fetcher")),c="odyCache"+this.unique,window[c]=void 0;try{delete window[c]}catch(x){}}return this.options.after!=null&&typeof this.options.after=="function"&&this.options.after.call(this),!0},e.prototype._buildUrl=function(){var e,t,n;e="https://api.instagram.com/v1";switch(this.options.get){case"popular":t="media/popular";break;case"tagged":if(typeof this.options.tagName!="string")throw new Error("No tag name specified. Use the 'tagName' option.");t="tags/"+this.options.tagName+"/media/recent";break;case"location":if(typeof this.options.locationId!="number")throw new Error("No location specified. Use the 'locationId' option.");t="locations/"+this.options.locationId+"/media/recent";break;case"user":if(typeof this.options.userId!="number")throw new Error("No user specified. Use the 'userId' option.");if(typeof this.options.accessToken!="string")throw new Error("No access token. Use the 'accessToken' option.");t="users/"+this.options.userId+"/media/recent";break;default:throw new Error("Invalid option for get: '"+this.options.get+"'.")}return n=""+e+"/"+t,this.options.accessToken!=null?n+="?access_token="+this.options.accessToken:n+="?client_id="+this.options.clientId,this.options.limit!=null&&(n+="&count="+this.options.limit),n+="&callback=odyCache"+this.unique+".parse",n},e.prototype._genKey=function(){var e;return e=function(){return((1+Math.random())*65536|0).toString(16).substring(1)},""+e()+e()+e()+e()},e.prototype._makeTemplate=function(e,t){var n,r,i,s,o;r=/(?:\{{2})([\w\[\]\.]+)(?:\}{2})/,n=e;while(r.test(n))i=n.match(r)[1],s=(o=this._getObjectProperty(t,i))!=null?o:"",n=n.replace(r,""+s);return n},e.prototype._getObjectProperty=function(e,t){var n,r;t=t.replace(/\[(\w+)\]/g,".$1"),r=t.split(".");while(r.length){n=r.shift();if(!(e!=null&&n in e))return null;e=e[n]}return e},e.prototype._sortBy=function(e,t,n){var r;return r=function(e,r){var i,s;return i=this._getObjectProperty(e,t),s=this._getObjectProperty(r,t),n?i>s?1:-1:i<s?1:-1},e.sort(r.bind(this)),e},e.prototype._filter=function(e,t){var n,r,i,s,o;n=[],i=function(e){if(t(e))return n.push(e)};for(s=0,o=e.length;s<o;s++)r=e[s],i(r);return n},e}(),t=typeof exports!="undefined"&&exports!==null?exports:window,t.ody=e}).call(this);
-</script> -->
 	</head>
 	<body>
 		<header>
@@ -107,6 +72,8 @@ strong {font-weight:800;}
 			</p>
 			<button class="blogButton" type="button" name="button"> <a href="index2.html">check out our blog</a></button>
 			<h2 id="map">it's all about <span>location</span></h2>
+
+
 			<!--This starts the entirity of the map code-->
 			<!--This starts the entirity of the map code-->
 			<!--This starts the entirity of the map code-->
@@ -158,6 +125,8 @@ strong {font-weight:800;}
 			<!--End of Map Content-->
 			<!--End of Map Content-->
 			<!--End of Map Content-->
+
+
 			<!-- Start of Mobile Accordian Map -->
 			<!-- Start of Mobile Accordian Map -->
 			<!-- Start of Mobile Accordian Map -->
@@ -165,88 +134,303 @@ strong {font-weight:800;}
 			<!-- Start of Mobile Accordian Map -->
 			<section class="accordianMenu">
 				<h1>choose your hood</h1>
-				<button class="accordian" type="button" name="button">Accordian #1</button>
+				<div class="accordianScroll">
+				<button class="accordian" type="button" name="button">backbay</button>
 				<div class="accordianPanel">
-					<p class="panelFont">
-						Lorem ipsum dolor sit amet, consectetur adipisicing
-						elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua. Ut enim ad minim veniam, quis
-						nostrud exercitation ullamco laboris nisi ut aliquip
-						ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu
-						fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est
-						laborum.
+						<img class="accordianImage" src="images/backbay.png" alt="image of back bay area">
+						<h3>Listing Price Range: $475k – $14.3m</h3>
+						<h3>Average Square Footage: 2,089</h3>
+						<h3>Nearest Train: Orange and Green Line</h3>
+						<p class="panelFont">
+						When someone visualizes Boston, what most commonly would appear is
+						a brownstone and brick home with rolled front windows, maybe a tree
+						lined street, and a brief stroll to the Charles River. Hello Back
+						Bay. Those streets are more than likely Marlborough Street and
+						Commonwealth Ave. Quintessential, yes. Cheesy, no. Beautiful,
+						absolutely!
+						High-end shopping, check .High-end dining, check.
+						Copley Square and the Prudential Center are changing and for the
+						better. Check out Mario Batali's brand new Eataly for some fresh
+						everything you could possibly imagine in the Pru. If you don't feel
+						like the picturesque walk home, just buy a Tesla at the new location.
 					</p>
 				</div>
 
-				<button class="accordian" type="button" name="button">Accordian #2</button>
+				<button class="accordian" type="button" name="button">beacon hill</button>
 				<div class="accordianPanel">
+					<img class="accordianImage" src="images/beaconhill.png" alt="beacon hill neighborhood">
+					<h3>Listing Price Range: $350k – $16m</h3>
+					<h3>Average Square Footage: 2,109</h3>
+					<h3>Nearest Train: Green and Red Line</h3>
 					<p class="panelFont">
-						Lorem ipsum dolor sit amet, consectetur adipisicing
-						elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua. Ut enim ad minim veniam, quis
-						nostrud exercitation ullamco laboris nisi ut aliquip
-						ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu
-						fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est
-						laborum.
+					The most desired area in Boston from the beginning most likely until
+					the end. Some notables: Robert Frost, John Singleton Copley, Daniel
+					Webster, John Hancock, and more recent, John Kerry and Carly Simon.
+					You get the point. Get a steak at Mooo, and if they have them, get the
+					chocolate chip cookies with a glass of milk for dessert, as traditional
+					as your historical neighbors.
 					</p>
 				</div>
 
-				<button class="accordian" type="button" name="button">Accordian #3</button>
+				<button class="accordian" type="button" name="button">cambridge</button>
 				<div class="accordianPanel">
+					<img class="accordianImage" src="images/cambridge.png" alt="picture of cambridge area">
+					<h3>Listing Price Range: $329k – $3m</h3>
+					<h3>Average Square Footage: 1,241</h3>
+					<h3>Nearest Train: Red Line</h3>
 					<p class="panelFont">
-						Lorem ipsum dolor sit amet, consectetur adipisicing
-						elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua. Ut enim ad minim veniam, quis
-						nostrud exercitation ullamco laboris nisi ut aliquip
-						ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu
-						fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est
-						laborum.
+						Central, Harvard, Inman, even Kendall Square is getting in on the act
+						now. If you are in the mood for a world class education, try Harvard
+						or MIT. If you want a burger, go to Mr. Bartley's. Want to dance like
+						a fool? Cantab Lounge. Want ice cream? Toscanini’s. Want to spray paint
+						a wall? The alley in Central Square. Or just hungry at 3am? Beantown
+						Taqueria. Choose quick. Go!
 					</p>
 				</div>
+
+				<button class="accordian" type="button" name="button">charlestown</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/charlestown.png" alt="">
+					<h3>Listing Price Range: $445k – $2m</h3>
+					<h3>Average Square Footage: 1,402</h3>
+					<h3>Nearest Train: Orange Line</h3>
+					<p class="panelFont">
+					Quaint is the word that comes to mind. Gas lamps and brick sidewalks
+					make this very little town peaceful and harken back to its beginning
+					of 1628. Kind of a mind boggling date in itself. This is a great location
+					for families and professionals alike. An urban suburb of sorts , while
+					still being only a 10 minute walk to the TD Garden or North End.
+					Tangierino Brasserie is a great Moroccan restaurant and hookah lounge.
+					George Washington also kicked the British out from here if you’re a
+					history buff.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">downtown</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/downtown.png" alt="">
+					<h3>Listing Price Range: $575k – $13m</h3>
+					<h3>Average Square Footage: 1,691</h3>
+					<h3>Nearest Train: Red, Blue, Orange, and Green Line</h3>
+					<p class="panelFont">
+						Melting Pot. A constant flow of shoppers, commuters, residents and
+						locals. Downtown is now home to that huge glass condo building atop
+						the old Filene’s Basement building that you may have been wondering
+						about.  Sam LaGrassa’s has some serious sandwiches. Popping the question?
+						The Jewelers Building on Washington is a landmark. 5 minutes to The
+						Common. 5 minutes to, well pretty much everywhere.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">dorchester</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/dorchester.png" alt="">
+					<h3>Listing Price Range: $155k – $1.1m</h3>
+					<h3>Average Square Footage: 1,418</h3>
+					<h3>Nearest Train: Red Line</h3>
+					<p class="panelFont">
+						The biggest neighborhood in Boston by a longshot. From Franklin Park
+						Zoo to the Chocolate Factory in Lower Mills, Ashmont to Fields Corner
+						to Savin Hill, new restaurants are popping up all over the place. With
+						the old classics of a timeless, blue-collar town, Dorchester is super
+						convenient to Downtown Boston and is an absolute neighborhood.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">east boston</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/east boston.png" alt="">
+					<h3>Listing Price Range: $314k – $839k</h3>
+					<h3>Average Square Footage: 1,152</h3>
+					<h3>Nearest Train: Blue Line</h3>
+					<p class="panelFont">
+						Santarpio’s Pizza and Rino’s Place might just be able to end the
+						sentence right there but we won't. East Boston may just have the
+						absolute best view of Boston’s skyline. The park in Jeffries Point
+						is truly beautiful. Have a picnic and enjoy the sea breeze. Don't
+						sleep on the effortless blue line commute directly downtown. We
+						would be remiss not to mention Angela's Cafe, the guac is divine.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">fenway</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/fenway.png" alt="">
+					<h3>Listing Price Range: $422k – $4.7m</h3>
+					<h3>Average Square Footage: 1,174</h3>
+					<h3>Nearest Train: Green Line</h3>
+					<p class="panelFont">
+					Sorry, Red Sox. Your reign may be over. There is actually more going on
+					in Fenway than the ‘ye ole’ and sports bars. With Boston global medical
+					prominence occupying the same area, a neighborhood has been born. Target
+					even lives here now, all the toothpaste and Swiffers your heart can desire.
+					Tiger Mama is a flavor explosion. The Verb Hotel is a great vibe to chill.
+					Resident buildings are popping up like weeds. Catch a show at the House of
+					Blues, and I guess as a last resort, you can see a Red Sox game.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">jamaica plain</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/jamaica plain.png" alt="">
+					<h3>Listing Price Range: $255k – $950k</h3>
+					<h3>Average Square Footage: 1,103</h3>
+					<h3>Nearest Train: Orange and Green Line</h3>
+					<p class="panelFont">
+						JP has forever been a progressive-minded town in Boston. Still remains
+						true. Eclectic would be the best word to describe it, from food to social
+						activities. If your taste buds are diverse Tres Gatos is an absolute must.
+						It's a book store, record store and fine dining in one establishment.
+						Pretty much sums up JP in one spot! If you need some fresh ink, check out
+						Fat Ram's Pumpkin Tattoo (some of our agents may or may not have quite a
+						bit of work from them).
+
+						Fun Fact: The JP in JP Licks stands for Jamaica Plain
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">leather district</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/leather district.png" alt="">
+					<h3>Listing Price Range: $799k – $1.6m</h3>
+					<h3>Average Square Footage: 1,784</h3>
+					<h3>Nearest Train: Red Line</h3>
+					<p class="panelFont">
+					Manhattan-esque. An overused description no doubt, but this is the only
+					neighborhood that is actually deserving of the title. The LD is home to
+					Boston's original and authentic converted loft space. Formerly the section
+					of the city where leather products were manufactured, the warehouses that
+					appear to be just buildings have some of the city’s most incredible lofts
+					inside. Low key would be a good description. Oh yes, a nationally renowned
+					sushi spot with no sign speaks to this vibe perfectly. If you like lofts,
+					this is your spot.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">north end</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/north end.png" alt="">
+					<h3>Listing Price Range: $645k –$1.3m</h3>
+					<h3>Average Square Footage: 1,049</h3>
+					<h3>Nearest Train: Green and Orange Line</h3>
+					<p class="panelFont">
+					Yes, you can have Italian food here. Throw a stone. Aim for Giacomo’s
+					or Lucca; however, if you missed and hit a cannoli at Modern Pastry
+					consider it a happy accident. The North End is as Boston as the letter
+					“R” isn't but the Rose Kennedy Greenway has added a layer of space that
+					has upped the beauty immeasurably. Take a nice stroll at the top of
+					Hanover Street and sit at the fountains and find out for yourself. If
+					you want meat like old school butcher shop greatness, Sulmona Meat
+					Market. Thank us later or at the closing table.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">roxbury</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/roxbury.png" alt="">
+					<h3>Listing Price Range: $250k – $650k</h3>
+					<h3>Average Square Footage: 1,660</h3>
+					<h3>Nearest Train: Orange Line</h3>
+					<p class="panelFont">
+						Established in 1868, Roxbury is one of Boston's most historic
+						neighborhoods. Malcolm X spent his formative years here. If you have
+						grandparents from Boston, they have memories of Dudley Square, and
+						now it is experiencing a resurgence. Places like Dudley Cafe and the
+						Inner Sanctum for the Arts are treating this neighborhood with the
+						respect it deserves.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">seaport</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/seaport.png" alt="">
+					<h3>Listing Price Range: $899k – $7.5m</h3>
+					<h3>Average Square Footage: 1,987</h3>
+					<h3>Nearest Train: Red and Silver Line</h3>
+					<p class="panelFont">
+					The most changed parcel of land in the city for sure. This place was
+					basically empty parking lots, the Children’s Museum and the seafood
+					wholesalers. You can still get seafood, but now you can add a steak at
+					Del Frisco’s. Enjoy rooftop drinks at Yotel. Play corn hole and swing
+					on big lit up swing at Lawn on D. It's a lot. The ICA obviously does
+					art but also great summertime Friday parties. Countless luxury and
+					office buildings have literally added a whole new component to Boston’s
+					skyline.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">south boston</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/south boston.png" alt="">
+					Listing Price Range: $449k – $2m
+					Average Square Footage: 1,342
+					Nearest Train: Red Line
+					<p class="panelFont">
+						This is not your father’s Southie. Trade in your corned beef and cabbage
+						for street corn at LOCO, the Mexican hotspot. There is an awful lot packed
+						into this 3.2 square mile Boston neighborhood. Go for a stroll down memory
+						lane at Castle Island and grab a burger, dog and fries for like 10 bucks.
+						Swing through the West Side which may just be the best side nowadays.
+						West Broadway is lined with nightlife and luxury residences. Yes, there
+						is also a beach in Southie, too. The bottom of N Street is our preferred spot.
+						Think Chicago met Williamsburg, had a baby and named it Southie.
+						Oh, and remember, “dem apples” from Good Will Hunting, that was at the
+						L Street Tavern.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">south end</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/south end.png" alt="">
+					<h3>Listing Price Range: $515k – $4m</h3>
+					<h3>Average Square Footage: 1,469</h3>
+					<h3>Nearest Train: Orange and Silver Line</h3>
+					<p class="panelFont">
+					Potentially the most sought after hood in the Bean. Adult playground
+					is its best description. Food, food and more food. Really just throw a
+					stone. But if pressured, we’re getting fried chicken at Slades and probably
+					catching some tunes at the Beehive. Local goodness at Berkeley perk
+					(Jordan's banana bread). If the kiddos in all those strollers need some
+					fresh threads, hit Kodomo. Coffee, Render...mic drop.
+					</p>
+				</div>
+
+				<button class="accordian" type="button" name="button">west end</button>
+				<div class="accordianPanel">
+					<img class="accordianImage" src="images/west end.png" alt="">
+					<h3>Listing Price Range: $450k – $900k</h3>
+					<h3>Average Square Footage: 1,019</h3>
+					<h3>Nearest Train: Orange and Green Line</h3>
+					<p class="panelFont">
+						The fastest growing neighborhood in Boston! The West End, no longer
+						just the home of the Celtics and Bruins but hundreds of residents now
+						dwell in these lanes. Arguably West Enders score the best view of the
+						Zakim Bridge, unless you live 5 mins up the road in Charlestown.
+						Pre-game grub, that isn't a slice of pizza. We favor Ward 8; they say
+						Julian Edelman is a regular there.
+					</p>
+				</div>
+			</div>
 			</section>
 			<!-- End of Mobile Accordian Map -->
 			<!-- End of Mobile Accordian Map -->
 			<!-- End of Mobile Accordian Map -->
 			<!-- End of Mobile Accordian Map -->
 			<!-- End of Mobile Accordian Map -->
+
+
 			<!-- Instagram API will be placed here -->
 			<!-- Instagram API will be placed here -->
 			<!-- Instagram API will be placed here -->
 			<!-- Instagram API will be placed here -->
 			<!-- Instagram API will be placed here -->
 			<h2 id="social">hit us up on instagram.</h2>
-			<section class="instagramCarsoul">
-				<div class='instagrid section' id='Instagram'>
-					<div class='instagrid.css' data-version='1' id='instagridz'>
-			 		<h2 class='title' id="instagrid-title">
 
-			 		</h2>
- 							<div class='instagrid.css'>
-					 			<script type='text/javascript'>
-
-
-
-					 			var feed=new ody({get:"user",
-						 		limit:9,
-
-						 		resolution:"standard_resolution",
-								 template:'<li><a href="{{link}}" target="_blank" style="background-image:url({{image}});background-size: cover;"><img src="https://lh3.googleusercontent.com/-P-gOTAfNfZ4/V2RPSYvECxI/AAAAAAAABng/Efqy2Oxjqm4lrmDhT07PBtlgYRb_MlJ7QCCo/s576/questyerror.png"></img><div class="instagrid-z"><div class="instagrids"><span class="instagrid-outter">{{likes}} <i class="fa fa-heart"></i><br/>{{comments}} <i class="fa fa-comment"></i></span></div></div></a></li>',
-
-						 		userId:4781521505,
-				 					accessToken:""
-				 				});feed.run();
-				 			</script>
-	 						<div id='ody'></div>
- 						</div>
-					</div>
+			<!-- <section class="instagramCarsoul"></section> -->
+				<div class="container">
+					<div id="instafeed" class="row"> </div>
 				</div>
-			</section>
+
 			<!-- Instagram API will be end here -->
 			<!-- Instagram API will be end here -->
 			<!-- Instagram API will be end here -->
@@ -283,8 +467,8 @@ strong {font-weight:800;}
 					<span><a href="#" target="_blank"><img src="logos/twitter.png" alt=""></a></span>
 				</div>
 				<div class="contact">
-					<h2>get in touch</h2>
-					<hr>
+					<h1 class="hiddenContact">get in touch</h1>
+					<hr class="hiddenContact">
 					<h2 class="contactHeaderTwo"><span>call or text us:</span>&nbsp;&nbsp;617.702.4600</h2>
 					<h2 class="contactHeaderTwo"><span>slide into our dm:</span>&nbsp;&nbsp;@redlinebrokers</h2>
 					<h2 class="contactHeaderTwo"><span>call/text not your thing?</span>&nbsp;&nbsp; <a href="mailto: [michael@propertiesredline.com]?subject= &body="><span class="emailHover">email us</span></a></h2>
@@ -312,8 +496,12 @@ strong {font-weight:800;}
 		</section>
 
 <!-- external JavaScript link -->
+	<script src="js/jquery.min.js"></script>
+  <script src="js/instafeed.min.js"></script>
+	<script src="js/magnific.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/custom.js"></script>
 	</body>
 </html>

@@ -835,7 +835,7 @@ footer {
   li > h2{
     color: purple;
     letter-spacing: 3px;
-    margin: 0 0 -1em -92%;
+    margin: 0 0 -1em 0%;
   }
   .homeMove{
     /*used to move the nav bar*/
@@ -979,9 +979,19 @@ footer {
     top: 56px;
     left: 3%;
     text-align: left;
-    width: 25%;
+    width: 27%;
   }
-
+  .img-fluid{
+    display: inline;
+    float: left;
+    margin-bottom: 30px;
+    padding-left: 1.4%;
+  }
+  .instaimg img:hover{
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+  }
   button + h2{
     color: #000;
     font-size: 4.5em;
@@ -1005,6 +1015,9 @@ footer {
     z-index: 100;
   }
   .hidden{
+    display: none;
+  }
+  .accordianMenu{
     display: none;
   }
   .instagramCarsoul{
@@ -1056,6 +1069,9 @@ footer {
   }
   .contactHeaderTwo{
     text-align: left;
+  }
+  .hiddenContact{
+    display: none;
   }
   /* .contactHeaderTwo span{
     color: red;
@@ -1660,7 +1676,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 255em;/*Might make this 220*/
+    height: 320em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -1789,15 +1805,17 @@ footer {
   .accordianMenu{
     background: #262626;
     border: 1px solid #262626;
-
     margin: 15px auto;
-    width: 99%;
+    /* max-height: 400px; */
     max-width: 600px;
+    /* overflow: scroll; */
+    width: 99%;
   }
 
   button.accordian{
     background-color: whitesmoke;
     border: none;
+    cursor: pointer;
     font-size: 18px;
     outline: none;
     padding: 15px 20px;
@@ -1806,11 +1824,20 @@ footer {
     width: 100%;
   }
 
+.accordianScroll{
+  max-height: 400px;
+  overflow: scroll;
+}
+
   button.accordian::after{
     content: '\f055';
+    float: right;
     font-family: "fontawesome";
     font-size: 14px;
-    float: right;
+  }
+
+  button.accordian.is-open:after{
+    content: '\f056'
   }
 
   button.accordian:hover{
@@ -1827,9 +1854,13 @@ footer {
     padding: 0 20px;
     transition: max-height 0.2s ease-in-out;
   }
+  .accordianImage{
+    width: 100%;
+  }
 
   .panelFont{
     color: white;
+    font-size: 1.2em;
   }
 
   /* Ending the Accordian Code  */
@@ -1844,6 +1875,13 @@ footer {
     color: #000;
     font-size: 4.5em;
     width: 45%;
+  }
+  .instagramCarsoul{
+    background: #262626;
+    border: 1px solid #262626;
+    height:300px;
+    margin: 50px 0 -35 0;
+    width: 300px;
   }
   .moreButton{
     background-color: #FFF;
@@ -1943,6 +1981,10 @@ footer {
     height: 35em;
     margin: 75px 0 -60px 0%;
     width: 100%
+  }
+  .contact > h1{
+    font-size: 3.2em;
+    font-weight: 800;
   }
   .emailHover:hover{
     color: grey;

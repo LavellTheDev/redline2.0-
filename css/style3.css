@@ -1,0 +1,11 @@
+body {
+	padding-top:5vh;
+}
+
+.instaimg img {margin-bottom:30px;}
+.instaimg img:hover {
+	background:#FFF;
+	opacity:  0.5;
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
+}
