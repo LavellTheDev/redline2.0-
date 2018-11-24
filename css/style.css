@@ -833,7 +833,7 @@ footer {
   } */
 
   li > h2{
-    color: purple;
+    color: white;
     letter-spacing: 3px;
     margin: 0 0 -1em 0%;
   }
@@ -887,7 +887,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 305em;/*Might make this 220*/
+    height: 295em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -987,7 +987,8 @@ footer {
     display: inline;
     float: left;
     margin-bottom: 30px;
-    padding-left: 1.4%;
+    padding-left: 3%;
+    width: 13%;
   }
   .instaimg img:hover{
     opacity: 0.5;
