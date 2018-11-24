@@ -887,7 +887,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 291em;/*Might make this 220*/
+    height: 305em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -916,6 +916,7 @@ footer {
     color: #000;
     font-size: 2.5em;
     margin: 0.3em 0 0 8%;
+    outline: none;
     width: 121%;
   }
   .topFloor + p{
@@ -975,6 +976,7 @@ footer {
   .mainContent > h2{
     color: #000;
     font-size: 4.5em;
+    outline: none;
     position: relative;
     top: 56px;
     left: 3%;
@@ -1063,6 +1065,9 @@ footer {
     margin: 5px 0 -30px 0;
     height: 2em;
     width: 100%s
+  }
+  #faq{
+    outline: none;
   }
   .contactHeader{
     margin: 0 0 0 35%;
@@ -1869,27 +1874,39 @@ footer {
   /* Ending the Accordian Code  */
   /* Ending the Accordian Code  */
   #social{
-    margin: 0 0 0 0;
+    margin: 0 0 40px 0;
   }
   img + h2 {
     color: #000;
     font-size: 4.5em;
     width: 45%;
   }
-  .instagramCarsoul{
+  .img-fluid{
+    display: inline;
+    float: left;
+    margin-bottom: 25px;
+    padding-left: 0.7%;
+    width: 21%;
+  }
+  .instaimg img:hover{
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+  }
+  /* .instagramCarsoul{
     background: #262626;
     border: 1px solid #262626;
     height:300px;
     margin: 50px 0 -35 0;
     width: 300px;
-  }
+  } */
   .moreButton{
     background-color: #FFF;
     border: .3em solid #8f8f8f;
     font-size: 1.6em;
     font-weight: 800;
     height: 2.5em;
-    margin: 100px 0 -20px 36%;
+    margin: 75px 0 -20px 36%;
     width: 26%;
   }
 
@@ -1983,8 +2000,9 @@ footer {
     width: 100%
   }
   .contact > h1{
-    font-size: 3.2em;
+    font-size: 4.5em;
     font-weight: 800;
+    margin: -71px 0 0 0;
   }
   .emailHover:hover{
     color: grey;
