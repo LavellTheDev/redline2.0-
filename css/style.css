@@ -1682,7 +1682,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 320em;/*Might make this 220*/
+    height: 312em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -1907,7 +1907,7 @@ footer {
     font-size: 1.6em;
     font-weight: 800;
     height: 2.5em;
-    margin: 75px 0 -20px 36%;
+    margin: 125px 0 -20px -12%;
     width: 26%;
   }
 
