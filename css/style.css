@@ -1682,7 +1682,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 312em;/*Might make this 220*/
+    height: 306em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -1771,7 +1771,7 @@ footer {
   .mainContent > h2{
     color: #000;
     font-size: 4em;
-    margin: 315px 0 0 0;
+    margin: 290px 0 0 0;
     position: relative;
     top: 56px;
     text-align: left;
@@ -1889,6 +1889,11 @@ footer {
     padding-left: 0.7%;
     width: 21%;
   }
+  .instagramApiMobileSection{
+    border: 1px solid transparent;
+    height: 216px;
+    overflow: hidden;
+  }
   .instaimg img:hover{
     opacity: 0.5;
     -moz-opacity: 0.5;
@@ -1907,7 +1912,7 @@ footer {
     font-size: 1.6em;
     font-weight: 800;
     height: 2.5em;
-    margin: 125px 0 -20px -12%;
+    margin: 20px 0 0 35%;
     width: 26%;
   }
 
