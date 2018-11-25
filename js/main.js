@@ -173,7 +173,9 @@ $(document).ready(function(){
   $('.seaport-toggle').on('click', function(){
       $('.seaportCard').fadeToggle(1000);
   })
-
+  $('.southboston-toggle').on('click', function(){
+      $('.southBostonCard').fadeToggle(1000);
+  })
   $('.southend-toggle').on('click', function(){
       $('.southEndCard').fadeToggle(1000);
   })
