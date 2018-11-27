@@ -1739,7 +1739,7 @@ footer {
   img + p {
     float: left;
     font-size: 1.3em;
-    margin: auto;
+    margin: 10px auto;
     width: 100%;
   }
   .blogButton{
