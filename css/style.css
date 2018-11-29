@@ -986,7 +986,7 @@ footer {
   .img-fluid{
     display: inline;
     float: left;
-    margin-bottom: 30px;
+    margin: 30px 0 0 0;
     padding-left: 3%;
     width: 13%;
   }
