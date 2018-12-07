@@ -628,14 +628,15 @@ Start of targeting h2 "All about Location"
   top: 56px;
   left: 3%;
   text-align: left;
-  width: 27%;
+  width: 29%;
 }
 .img-fluid{
   display: inline;
   float: left;
   margin: 30px 0 0 0;
   padding-left: 3%;
-  width: 13%;
+  width: auto;
+  height: 222px;
 }
 .instaimg img:hover{
   opacity: 0.5;
