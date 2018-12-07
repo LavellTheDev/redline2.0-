@@ -879,7 +879,7 @@ footer {
   } */
 
   li > h2{
-    color: white;
+    color: lightblue;
     letter-spacing: 3px;
     margin: 0 0 -1em 0%;
   }
@@ -1252,8 +1252,8 @@ footer {
 
   /* Center the container */
   #container {
-  	width: 960px;
-  	margin: auto;
+    width: 960px;
+    margin: auto;
   }
 
   header {
@@ -1272,7 +1272,7 @@ footer {
   } */
 
   li > h2{
-    color: orange;
+    color: lightblue;
     letter-spacing: 3px;
     margin: 0 0 -1em 0%;
   }
@@ -1280,11 +1280,11 @@ footer {
     /*used to move the nav bar*/
     margin: 0 0 0 50%;
   }
-  ul > li{
+  div > li{
     display: inline;
     font-size: 1.5em;
     list-style-type: none;
-    margin: 0 0 0 1.25%;
+    margin: 0 0 0 1.65%;
     overflow: hidden;
     padding: 0;
     width: 100%;
@@ -1295,6 +1295,9 @@ footer {
   }
   li a:hover{
     text-decoration: underline;
+  }
+  .hiddenDesktop{
+    display: none;
   }
   /*End of targeting the Nav*/
   ul + hr{
@@ -1312,18 +1315,18 @@ footer {
   }
   .mainBlogButton{
     border: none;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 700;
-    height: 2.6em;
+    height: 2.8em;
     margin: 2em 0 -1em 58%;
-    width: 33%;
+    width: 35%;
   }
   /* Everything that falls under the main content section
   includes up until hit us up on instagram */
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 255em;/*Might make this 220*/
+    height: 295em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -1339,47 +1342,48 @@ footer {
   .topFloor{
     border: 0.555em solid #262626;
     float: left;
-    margin: -4em 0 0 6%;
-    width: 42%;
+    margin: -3.5em 0 0 6%;
+    width: 43%;
   }
   .titleBorderTop{
     border: .5em solid grey;
-    height: 8em;
-    margin: 8em 0 0 2%;
+    height: 9em;
+    margin: 12em 0 0 2%;
     width: 20%;
   }
   .topFloorTypeface{
     color: #000;
-    font-size: 2.2em;
-    margin: 0.5em 0 0 17%;
-    width: 100%;
+    font-size: 2.5em;
+    margin: 0.55em 0 0 8%;
+    outline: none;
+    width: 121%;
   }
   .topFloor + p{
     float: right;
-    margin: -0.5em 3% 0 0;
+    margin: 0.5em 3% 0 0;
   }
   /*************targeting basementscene*/
   .topBasement{
     border: 0.555em solid #262626;
-    margin: -3em 0 0 0;
-    width: 42%;
+    margin: -3em 0 -2.22em 0;
+    width: 43%;
   }
   .titleBorderBottom{
     border: .5em solid grey;
-    height: 8em;
-    margin: 30em 0 0 76.5%;
-    width: 20%;
+    height: 7.75em;
+    margin: 26em 0 0 80%;
+    width: 17%;
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
-    font-size: 2.3em;
+    font-size: 2.5em;
     font-weight: 800;
-    margin: 0.5em 0 2.5em -34%;
+    margin: 0.5em 0 2.5em -36%;
   }
   img + p {
     float: left;
     font-size: 1.4em;
-    margin: -0.5em 3% 0 4%;
+    margin: 0 2% 0 5%;
     width: 44%;
   }
   .blogButton{
@@ -1390,9 +1394,9 @@ footer {
     float: left;
     font-size: 1.2em;
     font-weight: 600;
-    height: 3.6em;
+    height: 3.8em;
     margin: 0em 0 0 17%;
-    width: 16%;
+    width: 13%;
   }
   /*****************************************
   ******************************************
@@ -1410,12 +1414,27 @@ footer {
   *******************************************/
   .mainContent > h2{
     color: #000;
-    font-size: 4.3em;
+    font-size: 4.5em;
+    outline: none;
     position: relative;
     top: 56px;
+    left: 0%;
+    text-align: left;
     width: 30%;
   }
-
+  .img-fluid{
+    display: inline;
+    float: left;
+    height: 200px;
+    margin: 30px 0 0 0;
+    padding-left: 4.3%;
+    width: auto;
+  }
+  .instaimg img:hover{
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+  }
   button + h2{
     color: #000;
     font-size: 4.5em;
@@ -1435,11 +1454,21 @@ footer {
     width: 30%;
     position: absolute;
     left:2.1%;
-    top:2100px;
+    top:2000px;
     z-index: 100;
   }
   .hidden{
     display: none;
+  }
+  .accordianMenu{
+    display: none;
+  }
+  .instagramCarsoul{
+    background: #262626;
+    border: 1px solid black;
+    height: 440px;
+    margin: auto;
+    width: 98%;
   }
   img + h2 {
     color: #000;
@@ -1452,7 +1481,7 @@ footer {
     font-size: 1.8em;
     font-weight: 800;
     height: 2.8em;
-    margin: 100px 0 -20px 44%;
+    margin: 25px 0 0 44%;
     width: 10%;
   }
 
@@ -1467,7 +1496,7 @@ footer {
     border: 1px solid transparent;
     height: 60em;
     max-height: 285em;
-    margin: 10em 0 0 -0.1em;
+    margin: 8em 0 0 -0.1em;
     width: 100.1%;
   }
   .headers{
@@ -1478,9 +1507,21 @@ footer {
     height: 2em;
     width: 100%s
   }
+  #faq{
+    outline: none;
+  }
   .contactHeader{
     margin: 0 0 0 35%;
   }
+  .contactHeaderTwo{
+    text-align: left;
+  }
+  .hiddenContact{
+    display: none;
+  }
+  /* .contactHeaderTwo span{
+    color: red;
+  } */
   .faq{
     border: 1px solid transparent;
     float: left;
@@ -1504,7 +1545,7 @@ footer {
     font-size: 1em;
   }
   li.a{
-    font-size: 0.9em;
+    font-size: 1.1em;
     font-weight: 300;
     margin: 0 0 0 0;
   }
@@ -1524,7 +1565,7 @@ footer {
     color: #fff;
     font-size: 3.2em;
     font-weight: 800;
-    margin: 1em 0 0 -42%;
+    margin: 1.2em 0 0 -45%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
@@ -1538,7 +1579,10 @@ footer {
     margin: 0 0 0 2.5%;
     width: 48%
   }
-  #fname{
+  .emailHover:hover{
+    color: grey;
+  }
+  /* #fname{
     height: 2.5em;
     width: 30%;
   }
@@ -1558,7 +1602,7 @@ footer {
     font-size: 1.3em;
     font-weight: 700;
     margin: 1.3em 0 0 50%;
-  }
+  } */
   h4{
     color: #000;
     font-size: 1.2em;
@@ -1582,7 +1626,6 @@ footer {
   footer {
 
   }
-
 }
 
 /*
