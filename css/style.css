@@ -1326,7 +1326,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 295em;/*Might make this 220*/
+    height: 281em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -1568,7 +1568,7 @@ footer {
     color: #fff;
     font-size: 3.2em;
     font-weight: 800;
-    margin: 1.2em 0 0 -45%;
+    margin: 1.2em 0 0 -31%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
