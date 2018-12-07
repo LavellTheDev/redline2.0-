@@ -1767,14 +1767,14 @@ footer {
   /*************targeting basementscene*/
   .topBasement{
     border: 0.555em solid #262626;
-    margin: -3em 0 -2.22em 0;
-    width: 43%;
+    margin: -4em 0 -2.22em 42%;
+    width: 45%;
   }
   .titleBorderBottom{
     border: .5em solid grey;
     height: 9em;
-    margin: 35em 0 0 77%;
-    width: 20%;
+    margin: 31em 0 0 67%;
+    width: 29%;
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
@@ -1783,10 +1783,10 @@ footer {
     margin: 0.5em 0 2.5em -36%;
   }
   img + p {
-    float: left;
+    float: right;
     font-size: 1.4em;
-    margin: 0 2% 0 5%;
-    width: 44%;
+    margin: 3.3em 7% 0 5%;
+    width: 90%;
   }
   .blogButton{
     background-color: #262626;
@@ -1816,23 +1816,23 @@ footer {
   *******************************************/
   .mainContent > h2{
     color: #000;
-    font-size: 4.2em;
+    font-size: 4em;
     outline: none;
     position: relative;
     top: 56px;
-    left: -6%;
+    left: -14%;
     text-align: left;
-    width: 35%;
+    width: 43%;
   }
   #social{
-    margin-left: 8.5%;
+    margin-left: 16.5%;
   }
   .img-fluid{
     display: inline;
     float: left;
-    height: 160px;
+    height: 128px;
     margin: 30px 0 0 0;
-    padding-left: 4.3%;
+    padding-left: 4%;
     width: auto;
   }
   .instaimg img:hover{
@@ -1887,7 +1887,7 @@ footer {
     font-weight: 800;
     height: 2.8em;
     margin: 25px 0 0 44%;
-    width: 10%;
+    width: 15%;
   }
 
   h2{
@@ -1916,7 +1916,7 @@ footer {
     outline: none;
   }
   .contactHeader{
-    margin: 0 0 0 30%;
+    margin: 0 0 0 24%;
   }
   .contactHeaderTwo{
     text-align: left;
@@ -1970,11 +1970,11 @@ footer {
     color: #fff;
     font-size: 3.2em;
     font-weight: 800;
-    margin: 1.2em 0 0 -31%;
+    margin: 0.2em 0 0 -10%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
-  width: 12%;
+  width: 17%;
   }
 
   .contact{
