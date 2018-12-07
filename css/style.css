@@ -977,9 +977,9 @@ footer {
   }
   .titleBorderBottom{
     border: .5em solid grey;
-    height: 7.75em;
-    margin: 26em 0 0 80%;
-    width: 17%;
+    height: 9em;
+    margin: 26em 0 0 77%;
+    width: 20%;
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
@@ -1272,13 +1272,13 @@ footer {
   } */
 
   li > h2{
-    color: lightblue;
+    color: orange;
     letter-spacing: 3px;
-    margin: 0 0 -1em 0%;
+    margin: 0 0 -1em -1%;
   }
   .homeMove{
     /*used to move the nav bar*/
-    margin: 0 0 0 50%;
+    margin: 0 0 0 44%;
   }
   div > li{
     display: inline;
@@ -1356,7 +1356,7 @@ footer {
     font-size: 2.5em;
     margin: 0.55em 0 0 8%;
     outline: none;
-    width: 121%;
+    width: 135%;
   }
   .topFloor + p{
     float: right;
@@ -1370,9 +1370,9 @@ footer {
   }
   .titleBorderBottom{
     border: .5em solid grey;
-    height: 7.75em;
-    margin: 26em 0 0 80%;
-    width: 17%;
+    height: 9em;
+    margin: 26em 0 0 77%;
+    width: 20%;
   }
   .topBasementTypeface{/*Targets basement scene typeface only*/
     color: #000;
@@ -1414,18 +1414,21 @@ footer {
   *******************************************/
   .mainContent > h2{
     color: #000;
-    font-size: 4.5em;
+    font-size: 4.2em;
     outline: none;
     position: relative;
     top: 56px;
-    left: 0%;
+    left: -6%;
     text-align: left;
-    width: 30%;
+    width: 35%;
+  }
+  #social{
+    margin-left: 8.5%;
   }
   .img-fluid{
     display: inline;
     float: left;
-    height: 200px;
+    height: 160px;
     margin: 30px 0 0 0;
     padding-left: 4.3%;
     width: auto;
@@ -1511,7 +1514,7 @@ footer {
     outline: none;
   }
   .contactHeader{
-    margin: 0 0 0 35%;
+    margin: 0 0 0 30%;
   }
   .contactHeaderTwo{
     text-align: left;
