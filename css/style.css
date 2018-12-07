@@ -1025,9 +1025,9 @@ footer {
     outline: none;
     position: relative;
     top: 56px;
-    left: 3%;
+    left: -2%;
     text-align: left;
-    width: 27%;
+    width: 30%;
   }
   .img-fluid{
     display: inline;
