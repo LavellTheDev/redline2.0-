@@ -1034,7 +1034,7 @@ footer {
     float: left;
     height: 185px;
     margin: 30px 0 0 0;
-    padding-left: 4%;
+    padding-left: 5%;
     width: auto;
   }
   .instaimg img:hover{
@@ -1727,7 +1727,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 281em;/*Might make this 220*/
+    height: 284em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -1785,7 +1785,7 @@ footer {
   img + p {
     float: right;
     font-size: 1.4em;
-    margin: 3.3em 7% 0 5%;
+    margin: 3.3em 4% 0 5%;
     width: 90%;
   }
   .blogButton{
@@ -1822,7 +1822,7 @@ footer {
     top: 56px;
     left: -14%;
     text-align: left;
-    width: 43%;
+    width: 45%;
   }
   #social{
     margin-left: 16.5%;
@@ -1832,7 +1832,7 @@ footer {
     float: left;
     height: 128px;
     margin: 30px 0 0 0;
-    padding-left: 4%;
+    padding-left: 3.5%;
     width: auto;
   }
   .instaimg img:hover{
@@ -1970,7 +1970,7 @@ footer {
     color: #fff;
     font-size: 3.2em;
     font-weight: 800;
-    margin: 0.2em 0 0 -10%;
+    margin: 0.2em 0 0 -8%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
