@@ -842,7 +842,7 @@ footer {
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-@media (min-width: 1140px) and (max-width: 1280px) {
+@media (min-width: 1141px) and (max-width: 1280px) {
   body {
        background-color: #262626;
        color: #FFF;
@@ -879,9 +879,9 @@ footer {
   } */
 
   li > h2{
-    color: lightblue;
+    color: pink;
     letter-spacing: 3px;
-    margin: 0 0 -1em 0%;
+    margin: 0 0 -1em -0.5%;
   }
   .homeMove{
     /*used to move the nav bar*/
@@ -933,7 +933,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 295em;/*Might make this 220*/
+    height: 288em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -963,7 +963,7 @@ footer {
     font-size: 2.5em;
     margin: 0.55em 0 0 8%;
     outline: none;
-    width: 121%;
+    width: 128%;
   }
   .topFloor + p{
     float: right;
@@ -1021,7 +1021,7 @@ footer {
   *******************************************/
   .mainContent > h2{
     color: #000;
-    font-size: 4.5em;
+    font-size: 4em;
     outline: none;
     position: relative;
     top: 56px;
@@ -1032,9 +1032,9 @@ footer {
   .img-fluid{
     display: inline;
     float: left;
-    height: 200px;
+    height: 185px;
     margin: 30px 0 0 0;
-    padding-left: 4.3%;
+    padding-left: 4%;
     width: auto;
   }
   .instaimg img:hover{
@@ -1118,7 +1118,7 @@ footer {
     outline: none;
   }
   .contactHeader{
-    margin: 0 0 0 35%;
+    margin: 0 0 0 32%;
   }
   .contactHeaderTwo{
     text-align: left;
@@ -1172,7 +1172,7 @@ footer {
     color: #fff;
     font-size: 3.2em;
     font-weight: 800;
-    margin: 1.2em 0 0 -45%;
+    margin: 1.2em 0 0 -38%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
@@ -2108,6 +2108,7 @@ footer {
     top: 20px;
     width: 10%;
   }
+
   /*Hides original nav links*/
   .hiddenMobile{
     /* display: none; */
@@ -2139,9 +2140,9 @@ footer {
     color: #FFF;
     text-decoration: none;
   }
-  li a:hover{
+  /* li a:hover{
     text-decoration: underline;
-  }
+  } */
   /*End of targeting the Nav*/
   ul + hr{
     margin: -0.9em 0 5em 3%;
