@@ -2169,7 +2169,7 @@ footer {
   .mainContent{
     background: #FFF;
     border: 1px solid transparent;
-    height: 306em;/*Might make this 220*/
+    height: 300em;/*Might make this 220*/
     max-height:320em ;
     margin: 10em auto;
     width: 95%;
@@ -2198,7 +2198,7 @@ footer {
     color: #000;
     font-size: 2em;
     margin: 0.2em 0 0 4%;
-    width: 155%;
+    width: 166%;
   }
   .topFloor + p{
     float: left;
@@ -2221,7 +2221,7 @@ footer {
     color: #000;
     font-size: 2em;
     font-weight: 800;
-    margin: 0.2em 0 2.5em -39%;
+    margin: 0.2em 0 2.5em -58%;
   }
   img + p {
     float: left;
@@ -2257,7 +2257,7 @@ footer {
   *******************************************/
   .mainContent > h2{
     color: #000;
-    font-size: 4em;
+    font-size: 3.5em;
     margin: 290px 0 0 0;
     position: relative;
     top: 56px;
@@ -2362,7 +2362,7 @@ footer {
   /* Ending the Accordian Code  */
   /* Ending the Accordian Code  */
   #social{
-    margin: 0 0 40px 0;
+    margin: 0 0 2em 0;
   }
   img + h2 {
     color: #000;
@@ -2419,7 +2419,7 @@ footer {
   }
   .headers{
     border: 1px solid transparent;
-    font-size: 4.5em;
+    font-size: 3.5em;
     font-weight: 800;
     margin: 5px 0 -30px 0;
     height: 2em;
@@ -2476,13 +2476,13 @@ footer {
   /***********Jquery Code*************/
   .socialMedia{
     color: #fff;
-    font-size: 3.2em;
+    font-size: 2.5em;
     font-weight: 800;
-    margin: 1em 0 0 -6%;
+    margin: 1em 0 0 -17%;
   }
   a > img{/*the social media links and images*/
   margin: 0.5em 0 0 2.5%;
-  width: 12%;
+  width: 20%;
   }
 
   .contact{
@@ -2493,9 +2493,9 @@ footer {
     width: 100%
   }
   .contact > h1{
-    font-size: 4.5em;
+    font-size: 3.5em;
     font-weight: 800;
-    margin: -71px 0 0 0;
+    margin: -60px 0 0 0;
   }
   .emailHover:hover{
     color: grey;
