@@ -442,7 +442,7 @@ footer {
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-@media (min-width: 1281px) {
+@media (min-width: 1281px) and (max-width: 1420px) {
   body {
      background-color: #262626;
      color: #FFF;
@@ -628,7 +628,7 @@ Start of targeting h2 "All about Location"
   top: 56px;
   left: 0%;
   text-align: left;
-  width: 29%;
+  width: 30%;
 }
 .img-fluid{
   display: inline;
@@ -662,7 +662,7 @@ end of targeting h2 "All about Location"
   width: 30%;
   position: absolute;
   left:2.1%;
-  top:2000px;
+  top:2215px;
   z-index: 100;
 }
 .hidden{
@@ -836,8 +836,17 @@ footer {
 }
 /**/
 }
-
-
+/*
+  ##Device =
+  ##
+*/
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+.someElement {
+  margin:1em;
+  color: lime;
+}
+}
 /*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
