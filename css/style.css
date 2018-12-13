@@ -534,7 +534,7 @@ includes up until hit us up on instagram */
 .mainContent{
   background: #FFF;
   border: 1px solid transparent;
-  height: 320em;/*Might make this 220*/
+  height: 303em;/*Might make this 220*/
   max-height:320em ;
   margin: 10em auto;
   width: 95%;
@@ -555,16 +555,16 @@ also the blog button*********************
 }
 .titleBorderTop{
   border: .5em solid grey;
-  height: 9.75em;
+  height: 10em;
   margin: 12em 0 0 2%;
-  width: 17%;
+  width: 18%;
 }
 .topFloorTypeface{
   color: #000;
   font-size: 2.5em;
-  margin: 0.3em 0 0 8%;
+  margin: 0.666em 0 0 8%;
   outline: none;
-  width: 121%;
+  width: 127%;
 }
 .topFloor + p{
   float: right;
@@ -578,15 +578,15 @@ also the blog button*********************
 }
 .titleBorderBottom{
   border: .5em solid grey;
-  height: 7.75em;
+  height: 10em;
   margin: 26em 0 0 80%;
-  width: 17%;
+  width: 18%;
 }
 .topBasementTypeface{/*Targets basement scene typeface only*/
   color: #000;
   font-size: 2.5em;
   font-weight: 800;
-  margin: 0.5em 0 2.5em -36%;
+  margin: 0.666em 0 2.5em -36%;
 }
 img + p {
   float: left;
@@ -662,7 +662,7 @@ end of targeting h2 "All about Location"
   width: 30%;
   position: absolute;
   left:2.1%;
-  top:2215px;
+  top:2140px;
   z-index: 100;
 }
 .hidden{
