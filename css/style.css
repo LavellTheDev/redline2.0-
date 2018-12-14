@@ -437,7 +437,12 @@ footer {
 /*******************************************/
 /* MEDIA QUERIES
 /*******************************************/
+@media (min-width: 1641px) and (max-width: 1781px){
 
+}
+@media (min-width: 1421px) and (max-width: 1640px){
+
+}
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -662,7 +667,7 @@ end of targeting h2 "All about Location"
   width: 30%;
   position: absolute;
   left:2.1%;
-  top:2140px;
+  top:2170px;
   z-index: 100;
 }
 .hidden{
@@ -719,7 +724,7 @@ p{
   outline: none;
 }
 .contactHeader{
-  margin: 0 0 0 35%;
+  margin: 0 0 0 33%;
 }
 .contactHeaderTwo{
   text-align: left;
