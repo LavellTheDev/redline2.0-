@@ -532,7 +532,7 @@ includes up until hit us up on instagram */
 .mainContent{
   background: #FFF;
   border: 1px solid transparent;
-  height: 303em;/*Might make this 220*/
+  height: 315em;/*Might make this 220*/
   max-height:320em ;
   margin: 10em auto;
   width: 95%;
@@ -632,7 +632,7 @@ Start of targeting h2 "All about Location"
   display: inline;
   float: left;
   margin: 30px 0 0 0;
-  padding-left: 3%;
+  padding-left: 4.4%;
   width: auto;
   height: 222px;
 }
@@ -653,14 +653,14 @@ end of targeting h2 "All about Location"
 ******************************************
 *******************************************/
 .interactiveMap{
-  height: 550px;
+  height: auto;
   width: 100%;
 }
 .mapCards{
   width: 30%;
   position: absolute;
   left:2.1%;
-  top:2170px;
+  top:2250px;
   z-index: 100;
 }
 .hidden{
