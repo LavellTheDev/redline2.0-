@@ -1,6 +1,6 @@
-//Project Name:
-//Client Name:
-//Author:
+//Project Name:redline brokers
+//Client Name: Michael
+//Author: Lavell Wesley
 //Dev @ RC in Boston
 
 ///-----------------------------------------------------------///
@@ -115,6 +115,10 @@ $(document).ready(function() {
 // });
 // }
 
+
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});
 // $(document).ready(function(){
 //   toggleMap();
 // });

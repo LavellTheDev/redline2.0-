@@ -3111,6 +3111,9 @@ footer {
   end of targeting h2 "All about Location"
   ******************************************
   *******************************************/
+  .mapContainer{
+    width: auto;
+  }
   .interactiveMap{
     height: 325px;
     width: 100%;
